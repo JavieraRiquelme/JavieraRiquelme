@@ -7,10 +7,9 @@
 
 <br/>
 
-<!-- Gráfico de Actividad (Corregido) -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=JavieraRiquelme&theme=react-dark&hide_border=true" width="100%" />
+<!-- Estadísticas Generales de GitHub -->
+[![Javiera's GitHub stats](https://github-readme-stats.vercel.app/api?username=JavieraRiquelme&show_icons=true&theme=dark&hide_border=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 
-<br/>
 <br/>
 
 <!-- Lenguajes más usados -->
