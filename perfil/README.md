@@ -1,16 +1,6 @@
 <div align="center">
 
-```text
- ˚ ₊ ‧  ✦                                        ✧  ‧ ₊ ˚
-       ██╗  ██╗ ██████╗ ██╗      █████╗ ██╗
-       ██║  ██║██╔═══██╗██║     ██╔══██╗██║
-       ███████║██║   ██║██║     ███████║██║
-       ██╔══██║██║   ██║██║     ██╔══██║╚═╝
-       ██║  ██║╚██████╔╝███████╗██║  ██║██╗
-       ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝
- ✧                                                    ✦
-          soy TU_NOMBRE  ·  dev desde santiago, cl
-             (´♡‿♡`)   hago cosas bonitas con código
+
 ```
 
 <img src="./assets/planet.svg" alt="Planeta de contribuciones: cada pixel es un día" width="100%"/>
@@ -52,11 +42,5 @@ ooOO::OOooOOO:::OOO····ooo··········OOOooo··::OOOO··
 <!-- PLANET:END -->
 
 </details>
-
-```text
-  ♡(◡‿◡)   ahora mismo: aprendiendo algo nuevo
-  ٩(♡ε♡)۶   hablemos de: diseño, front, cosas raras con svg
-  (*^^*)♡   escríbeme: tu@correo.cl
-```
 
 </div>
