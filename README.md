@@ -9,7 +9,6 @@
 
 <!-- PLANET:START -->
 ```text
-se genera solo con la GitHub Action ♡
 ```
 <!-- PLANET:END -->
 
