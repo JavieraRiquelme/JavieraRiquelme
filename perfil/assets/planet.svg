@@ -1,0 +1,462 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 520" width="900" height="520" role="img" aria-label="Planeta con 922 contribuciones del último año">
+<defs>
+  <g id="g0"><path d="M0-4.6Q0 0 4.6 0Q0 0 0 4.6Q0 0-4.6 0Q0 0 0-4.6Z" fill="#3E3558"/></g>
+  <g id="g1"><circle r="7.2" fill="none" stroke="#B0B1F9" stroke-width="1.6"/></g>
+  <g id="g2"><rect x="-8" y="-8" width="16" height="16" fill="#D8A0DF" opacity=".72"/>
+    <path d="M-4-8V8M0-8V8M4-8V8" stroke="#0A0810" stroke-width="1.1" opacity=".45"/></g>
+  <g id="g3"><rect x="-2.3" y="-8" width="4.6" height="16" fill="#FE94C1"/>
+    <rect x="-8" y="-2.3" width="16" height="4.6" fill="#FE94C1"/></g>
+  <g id="g4"><circle r="8.6" fill="#FF4FB3"/>
+    <path d="M-3.6-3.6L3.6 3.6M3.6-3.6L-3.6 3.6" stroke="#FFEFF7" stroke-width="2" stroke-linecap="round"/></g>
+
+  <radialGradient id="shade" cx="34%" cy="30%" r="78%">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset=".55" stop-color="#000" stop-opacity=".12"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".78"/>
+  </radialGradient>
+  <radialGradient id="ocean" cx="40%" cy="36%" r="70%">
+    <stop offset="0" stop-color="#1E1830"/><stop offset="1" stop-color="#0A0810"/>
+  </radialGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="14"/></filter>
+  <clipPath id="disk"><circle cx="300" cy="262" r="211"/></clipPath>
+  <style>
+    .tw{animation:tw 4s ease-in-out infinite}
+    @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+    .pulse{animation:pulse 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes pulse{0%{transform:scale(.6);opacity:.95}100%{transform:scale(2.2);opacity:0}}
+    @media (prefers-reduced-motion:reduce){.tw,.pulse{animation:none}}
+  </style>
+</defs>
+<rect width="900" height="520" rx="18" fill="#0A0810"/>
+<circle class="tw" style="animation-delay:0.98s" cx="572.7" cy="22.5" r="0.74" fill="#FE94C1"/>
+<circle class="tw" style="animation-delay:2.02s" cx="38.0" cy="56.8" r="0.63" fill="#D8A0DF"/>
+<circle class="tw" style="animation-delay:3.24s" cx="489.5" cy="120.2" r="0.61" fill="#FE94C1"/>
+<circle class="tw" style="animation-delay:2.41s" cx="91.6" cy="58.4" r="1.41" fill="#FE94C1"/>
+<circle class="tw" style="animation-delay:2.31s" cx="495.8" cy="424.7" r="1.30" fill="#FE94C1"/>
+<circle class="tw" style="animation-delay:3.94s" cx="50.3" cy="123.9" r="1.46" fill="#FE94C1"/>
+<circle class="tw" style="animation-delay:2.14s" cx="611.5" cy="45.7" r="0.84" fill="#D8A0DF"/>
+<circle class="tw" style="animation-delay:3.22s" cx="686.1" cy="38.0" r="1.00" fill="#B0B1F9"/>
+<circle class="tw" style="animation-delay:0.85s" cx="68.2" cy="466.6" r="1.10" fill="#FE94C1"/>
+<circle class="tw" style="animation-delay:2.99s" cx="135.7" cy="79.8" r="1.03" fill="#FE94C1"/>
+<circle class="tw" style="animation-delay:0.36s" cx="887.6" cy="79.2" r="0.65" fill="#FFEFF7"/>
+<circle class="tw" style="animation-delay:2.12s" cx="65.9" cy="200.8" r="1.57" fill="#FFEFF7"/>
+<circle class="tw" style="animation-delay:2.73s" cx="767.5" cy="15.7" r="1.14" fill="#B0B1F9"/>
+<circle class="tw" style="animation-delay:3.89s" cx="409.3" cy="486.9" r="1.36" fill="#FE94C1"/>
+<circle class="tw" style="animation-delay:3.37s" cx="456.8" cy="63.2" r="1.11" fill="#FE94C1"/>
+<circle class="tw" style="animation-delay:2.40s" cx="152.2" cy="486.7" r="1.09" fill="#B0B1F9"/>
+<circle class="tw" style="animation-delay:0.23s" cx="877.1" cy="413.4" r="1.48" fill="#D8A0DF"/>
+<circle class="tw" style="animation-delay:3.26s" cx="843.3" cy="52.8" r="1.58" fill="#FFEFF7"/>
+<circle class="tw" style="animation-delay:3.79s" cx="478.8" cy="72.9" r="0.77" fill="#FFEFF7"/>
+<circle class="tw" style="animation-delay:2.85s" cx="858.6" cy="474.5" r="1.00" fill="#D8A0DF"/>
+<circle class="tw" style="animation-delay:0.03s" cx="28.5" cy="287.0" r="1.31" fill="#D8A0DF"/>
+<circle class="tw" style="animation-delay:3.44s" cx="61.8" cy="43.7" r="0.67" fill="#B0B1F9"/>
+<circle class="tw" style="animation-delay:2.91s" cx="876.1" cy="59.2" r="1.40" fill="#FFEFF7"/>
+<circle class="tw" style="animation-delay:0.56s" cx="106.2" cy="105.8" r="0.78" fill="#FFEFF7"/>
+<circle class="tw" style="animation-delay:0.20s" cx="76.3" cy="414.0" r="1.60" fill="#B0B1F9"/>
+<circle class="tw" style="animation-delay:0.67s" cx="745.7" cy="494.5" r="1.09" fill="#D8A0DF"/>
+<circle class="tw" style="animation-delay:1.06s" cx="61.6" cy="199.5" r="1.38" fill="#FFEFF7"/>
+<circle class="tw" style="animation-delay:0.62s" cx="852.4" cy="507.7" r="0.90" fill="#FFEFF7"/>
+<circle class="tw" style="animation-delay:0.23s" cx="60.3" cy="302.1" r="1.11" fill="#D8A0DF"/>
+<circle class="tw" style="animation-delay:2.70s" cx="759.2" cy="44.3" r="0.84" fill="#B0B1F9"/>
+<g transform="translate(300 262) rotate(-14)"><path d="M-268 0A268 54 0 0 1 268 0" fill="none" stroke="#B0B1F9" stroke-width="1.6" stroke-linecap="round" stroke-dasharray=".1 7" opacity=".5"/></g>
+<circle cx="300" cy="262" r="209" fill="#D8A0DF" opacity=".28" filter="url(#glow)"/>
+<circle cx="300" cy="262" r="211" fill="url(#ocean)"/>
+<g clip-path="url(#disk)">
+<use href="#g0" xlink:href="#g0" transform="translate(290.5 57.4) scale(0.89 0.56)" opacity=".35"></use>
+<use href="#g0" xlink:href="#g0" transform="translate(309.5 57.4) scale(0.89 0.56)"><title>2025-11-07: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(262.0 60.9) scale(0.39 0.71)"><title>2025-11-08: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(276.5 60.9) scale(1.01 0.71)"><title>2025-11-09: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(300.0 60.9) scale(1.25 0.71)"><title>2025-11-10: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(323.5 60.9) scale(1.01 0.71)"><title>2025-11-11: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(338.0 60.9) scale(0.39 0.71)"><title>2025-11-12: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(235.4 67.9) scale(0.35 0.84)"><title>2025-11-13: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(245.2 67.9) scale(0.70 0.84)"><title>2025-11-14: 4 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(263.4 67.9) scale(1.04 0.84)"><title>2025-11-15: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(287.1 67.9) scale(1.23 0.84)"><title>2025-11-16: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(312.9 67.9) scale(1.23 0.84)"><title>2025-11-17: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(336.6 67.9) scale(1.04 0.84)"><title>2025-11-18: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(354.8 67.9) scale(0.70 0.84)"><title>2025-11-19: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(364.6 67.9) scale(0.35 0.84)"><title>2025-11-20: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(210.3 78.1) scale(0.35 0.94)"><title>2025-11-21: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(217.5 78.1) scale(0.52 0.94)"><title>2025-11-22: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(231.5 78.1) scale(0.82 0.94)"><title>2025-11-23: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(251.0 78.1) scale(1.05 0.94)"><title>2025-11-24: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(274.5 78.1) scale(1.20 0.94)"><title>2025-11-25: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(300.0 78.1) scale(1.25 0.94)"><title>2025-11-26: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(325.5 78.1) scale(1.20 0.94)"><title>2025-11-27: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(349.0 78.1) scale(1.05 0.94)"><title>2025-11-28: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(368.5 78.1) scale(0.82 0.94)"><title>2025-11-29: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(382.5 78.1) scale(0.52 0.94)"><title>2025-11-30: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(389.7 78.1) scale(0.35 0.94)"><title>2025-12-01: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(186.9 91.5) scale(0.35 1.02)"><title>2025-12-02: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(193.5 91.5) scale(0.44 1.02)"><title>2025-12-03: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(206.3 91.5) scale(0.71 1.02)"><title>2025-12-04: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(224.5 91.5) scale(0.94 1.02)"><title>2025-12-05: 6 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(247.1 91.5) scale(1.11 1.02)"><title>2025-12-06: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(272.7 91.5) scale(1.22 1.02)"><title>2025-12-07: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(300.0 91.5) scale(1.25 1.02)"><title>2025-12-08: 3 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(327.3 91.5) scale(1.22 1.02)"><title>2025-12-09: 4 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(352.9 91.5) scale(1.11 1.02)"><title>2025-12-10: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(375.5 91.5) scale(0.94 1.02)"><title>2025-12-11: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(393.7 91.5) scale(0.71 1.02)"><title>2025-12-12: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(406.5 91.5) scale(0.44 1.02)"><title>2025-12-13: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(413.1 91.5) scale(0.35 1.02)"><title>2025-12-14: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(165.5 107.9) scale(0.35 1.08)"><title>2025-12-15: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(170.7 107.9) scale(0.36 1.08)"><title>2025-12-16: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(180.8 107.9) scale(0.59 1.08)"><title>2025-12-17: 2 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(195.5 107.9) scale(0.79 1.08)"><title>2025-12-18: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(214.3 107.9) scale(0.97 1.08)"><title>2025-12-19: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(236.3 107.9) scale(1.10 1.08)"><title>2025-12-20: 6 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(260.8 107.9) scale(1.20 1.08)"><title>2025-12-21: 7 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(286.8 107.9) scale(1.25 1.08)"><title>2025-12-22: 0 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(313.2 107.9) scale(1.25 1.08)"><title>2025-12-23: 12 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(339.2 107.9) scale(1.20 1.08)"><title>2025-12-24: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(363.7 107.9) scale(1.10 1.08)"><title>2025-12-25: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(385.7 107.9) scale(0.97 1.08)"><title>2025-12-26: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(404.5 107.9) scale(0.79 1.08)"><title>2025-12-27: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(419.2 107.9) scale(0.59 1.08)"><title>2025-12-28: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(429.3 107.9) scale(0.36 1.08)"><title>2025-12-29: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(434.5 107.9) scale(0.35 1.08)"><title>2025-12-30: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(146.5 126.8) scale(0.35 1.13)"><title>2025-12-31: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(151.1 126.8) scale(0.35 1.13)"><title>2026-01-01: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(160.3 126.8) scale(0.53 1.13)"><title>2026-01-02: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(173.7 126.8) scale(0.72 1.13)"><title>2026-01-03: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(191.0 126.8) scale(0.89 1.13)"><title>2026-01-04: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(211.6 126.8) scale(1.03 1.13)"><title>2026-01-05: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(234.9 126.8) scale(1.13 1.13)"><title>2026-01-06: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(260.1 126.8) scale(1.21 1.13)"><title>2026-01-07: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(286.6 126.8) scale(1.25 1.13)"><title>2026-01-08: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(313.4 126.8) scale(1.25 1.13)"><title>2026-01-09: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(339.9 126.8) scale(1.21 1.13)"><title>2026-01-10: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(365.1 126.8) scale(1.13 1.13)"><title>2026-01-11: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(388.4 126.8) scale(1.03 1.13)"><title>2026-01-12: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(409.0 126.8) scale(0.89 1.13)"><title>2026-01-13: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(426.3 126.8) scale(0.72 1.13)"><title>2026-01-14: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(439.7 126.8) scale(0.53 1.13)"><title>2026-01-15: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(448.9 126.8) scale(0.35 1.13)"><title>2026-01-16: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(453.5 126.8) scale(0.35 1.13)"><title>2026-01-17: 4 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(130.1 148.1) scale(0.35 1.17)"><title>2026-01-18: 10 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(134.3 148.1) scale(0.35 1.17)"><title>2026-01-19: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(142.5 148.1) scale(0.48 1.17)"><title>2026-01-20: 2 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(154.7 148.1) scale(0.65 1.17)"><title>2026-01-21: 6 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(170.4 148.1) scale(0.81 1.17)"><title>2026-01-22: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(189.3 148.1) scale(0.95 1.17)"><title>2026-01-23: 10 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(210.9 148.1) scale(1.07 1.17)"><title>2026-01-24: 9 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(234.8 148.1) scale(1.16 1.17)"><title>2026-01-25: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(260.2 148.1) scale(1.22 1.17)"><title>2026-01-26: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(286.6 148.1) scale(1.25 1.17)"><title>2026-01-27: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(313.4 148.1) scale(1.25 1.17)"><title>2026-01-28: 4 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(339.8 148.1) scale(1.22 1.17)"><title>2026-01-29: 2 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(365.2 148.1) scale(1.16 1.17)"><title>2026-01-30: 9 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(389.1 148.1) scale(1.07 1.17)"><title>2026-01-31: 11 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(410.7 148.1) scale(0.95 1.17)"><title>2026-02-01: 4 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(429.6 148.1) scale(0.81 1.17)"><title>2026-02-02: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(445.3 148.1) scale(0.65 1.17)"><title>2026-02-03: 7 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(457.5 148.1) scale(0.48 1.17)"><title>2026-02-04: 12 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(465.7 148.1) scale(0.35 1.17)"><title>2026-02-05: 3 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(469.9 148.1) scale(0.35 1.17)"><title>2026-02-06: 7 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(116.6 171.3) scale(0.35 1.21)"><title>2026-02-07: 1 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(120.3 171.3) scale(0.35 1.21)"><title>2026-02-08: 6 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(127.7 171.3) scale(0.44 1.21)"><title>2026-02-09: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(138.6 171.3) scale(0.60 1.21)"><title>2026-02-10: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(152.8 171.3) scale(0.75 1.21)"><title>2026-02-11: 6 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(170.0 171.3) scale(0.89 1.21)"><title>2026-02-12: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(189.8 171.3) scale(1.00 1.21)"><title>2026-02-13: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(211.9 171.3) scale(1.10 1.21)"><title>2026-02-14: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(235.7 171.3) scale(1.17 1.21)"><title>2026-02-15: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(260.9 171.3) scale(1.22 1.21)"><title>2026-02-16: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(286.9 171.3) scale(1.25 1.21)"><title>2026-02-17: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(313.1 171.3) scale(1.25 1.21)"><title>2026-02-18: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(339.1 171.3) scale(1.22 1.21)"><title>2026-02-19: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(364.3 171.3) scale(1.17 1.21)"><title>2026-02-20: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(388.1 171.3) scale(1.10 1.21)"><title>2026-02-21: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(410.2 171.3) scale(1.00 1.21)"><title>2026-02-22: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(430.0 171.3) scale(0.89 1.21)"><title>2026-02-23: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(447.2 171.3) scale(0.75 1.21)"><title>2026-02-24: 4 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(461.4 171.3) scale(0.60 1.21)"><title>2026-02-25: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(472.3 171.3) scale(0.44 1.21)"><title>2026-02-26: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(479.7 171.3) scale(0.35 1.21)"><title>2026-02-27: 7 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(483.4 171.3) scale(0.35 1.21)"><title>2026-02-28: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(106.3 196.1) scale(0.35 1.23)"><title>2026-03-01: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(109.9 196.1) scale(0.35 1.23)"><title>2026-03-02: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(117.1 196.1) scale(0.42 1.23)"><title>2026-03-03: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(127.6 196.1) scale(0.58 1.23)"><title>2026-03-04: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(141.4 196.1) scale(0.72 1.23)"><title>2026-03-05: 8 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(158.1 196.1) scale(0.85 1.23)"><title>2026-03-06: 12 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(177.5 196.1) scale(0.97 1.23)"><title>2026-03-07: 12 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(199.1 196.1) scale(1.07 1.23)"><title>2026-03-08: 6 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(222.7 196.1) scale(1.15 1.23)"><title>2026-03-09: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(247.6 196.1) scale(1.21 1.23)"><title>2026-03-10: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(273.6 196.1) scale(1.24 1.23)"><title>2026-03-11: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(300.0 196.1) scale(1.25 1.23)"><title>2026-03-12: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(326.4 196.1) scale(1.24 1.23)"><title>2026-03-13: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(352.4 196.1) scale(1.21 1.23)"><title>2026-03-14: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(377.3 196.1) scale(1.15 1.23)"><title>2026-03-15: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(400.9 196.1) scale(1.07 1.23)"><title>2026-03-16: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(422.5 196.1) scale(0.97 1.23)"><title>2026-03-17: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(441.9 196.1) scale(0.85 1.23)"><title>2026-03-18: 1 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(458.6 196.1) scale(0.72 1.23)"><title>2026-03-19: 9 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(472.4 196.1) scale(0.58 1.23)"><title>2026-03-20: 7 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(482.9 196.1) scale(0.42 1.23)"><title>2026-03-21: 9 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(490.1 196.1) scale(0.35 1.23)"><title>2026-03-22: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(493.7 196.1) scale(0.35 1.23)"><title>2026-03-23: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(99.4 222.0) scale(0.35 1.24)"><title>2026-03-24: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(102.8 222.0) scale(0.35 1.24)"><title>2026-03-25: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(109.6 222.0) scale(0.40 1.24)"><title>2026-03-26: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(119.7 222.0) scale(0.55 1.24)"><title>2026-03-27: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(132.8 222.0) scale(0.70 1.24)"><title>2026-03-28: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(148.8 222.0) scale(0.83 1.24)"><title>2026-03-29: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(167.4 222.0) scale(0.94 1.24)"><title>2026-03-30: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(188.3 222.0) scale(1.04 1.24)"><title>2026-03-31: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(211.1 222.0) scale(1.12 1.24)"><title>2026-04-01: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(235.4 222.0) scale(1.19 1.24)"><title>2026-04-02: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(260.8 222.0) scale(1.23 1.24)"><title>2026-04-03: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(286.8 222.0) scale(1.25 1.24)"><title>2026-04-04: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(313.2 222.0) scale(1.25 1.24)"><title>2026-04-05: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(339.2 222.0) scale(1.23 1.24)"><title>2026-04-06: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(364.6 222.0) scale(1.19 1.24)"><title>2026-04-07: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(388.9 222.0) scale(1.12 1.24)"><title>2026-04-08: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(411.7 222.0) scale(1.04 1.24)"><title>2026-04-09: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(432.6 222.0) scale(0.94 1.24)"><title>2026-04-10: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(451.2 222.0) scale(0.83 1.24)"><title>2026-04-11: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(467.2 222.0) scale(0.70 1.24)"><title>2026-04-12: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(480.3 222.0) scale(0.55 1.24)"><title>2026-04-13: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(490.4 222.0) scale(0.40 1.24)"><title>2026-04-14: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(497.2 222.0) scale(0.35 1.24)"><title>2026-04-15: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(500.6 222.0) scale(0.35 1.24)"><title>2026-04-16: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(95.9 248.6) scale(0.35 1.25)"><title>2026-04-17: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(99.4 248.6) scale(0.35 1.25)"><title>2026-04-18: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(106.3 248.6) scale(0.40 1.25)"><title>2026-04-19: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(116.5 248.6) scale(0.55 1.25)"><title>2026-04-20: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(129.9 248.6) scale(0.70 1.25)"><title>2026-04-21: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(146.2 248.6) scale(0.83 1.25)"><title>2026-04-22: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(165.1 248.6) scale(0.94 1.25)"><title>2026-04-23: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(186.4 248.6) scale(1.04 1.25)"><title>2026-04-24: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(209.5 248.6) scale(1.12 1.25)"><title>2026-04-25: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(234.2 248.6) scale(1.19 1.25)"><title>2026-04-26: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(260.1 248.6) scale(1.23 1.25)"><title>2026-04-27: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(286.6 248.6) scale(1.25 1.25)"><title>2026-04-28: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(313.4 248.6) scale(1.25 1.25)"><title>2026-04-29: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(339.9 248.6) scale(1.23 1.25)"><title>2026-04-30: 1 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(365.8 248.6) scale(1.19 1.25)"><title>2026-05-01: 6 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(390.5 248.6) scale(1.12 1.25)"><title>2026-05-02: 8 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(413.6 248.6) scale(1.04 1.25)"><title>2026-05-03: 9 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(434.9 248.6) scale(0.94 1.25)"><title>2026-05-04: 7 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(453.8 248.6) scale(0.83 1.25)"><title>2026-05-05: 11 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(470.1 248.6) scale(0.70 1.25)"><title>2026-05-06: 12 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(483.5 248.6) scale(0.55 1.25)"><title>2026-05-07: 3 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(493.7 248.6) scale(0.40 1.25)"><title>2026-05-08: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(500.6 248.6) scale(0.35 1.25)"><title>2026-05-09: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(504.1 248.6) scale(0.35 1.25)"><title>2026-05-10: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(95.9 275.4) scale(0.35 1.25)"><title>2026-05-11: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(99.4 275.4) scale(0.35 1.25)"><title>2026-05-12: 6 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(106.3 275.4) scale(0.40 1.25)"><title>2026-05-13: 5 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(116.5 275.4) scale(0.55 1.25)"><title>2026-05-14: 8 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(129.9 275.4) scale(0.70 1.25)"><title>2026-05-15: 2 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(146.2 275.4) scale(0.83 1.25)"><title>2026-05-16: 8 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(165.1 275.4) scale(0.94 1.25)"><title>2026-05-17: 5 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(186.4 275.4) scale(1.04 1.25)"><title>2026-05-18: 10 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(209.5 275.4) scale(1.12 1.25)"><title>2026-05-19: 1 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(234.2 275.4) scale(1.19 1.25)"><title>2026-05-20: 8 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(260.1 275.4) scale(1.23 1.25)"><title>2026-05-21: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(286.6 275.4) scale(1.25 1.25)"><title>2026-05-22: 4 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(313.4 275.4) scale(1.25 1.25)"><title>2026-05-23: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(339.9 275.4) scale(1.23 1.25)"><title>2026-05-24: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(365.8 275.4) scale(1.19 1.25)"><title>2026-05-25: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(390.5 275.4) scale(1.12 1.25)"><title>2026-05-26: 8 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(413.6 275.4) scale(1.04 1.25)"><title>2026-05-27: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(434.9 275.4) scale(0.94 1.25)"><title>2026-05-28: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(453.8 275.4) scale(0.83 1.25)"><title>2026-05-29: 2 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(470.1 275.4) scale(0.70 1.25)"><title>2026-05-30: 8 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(483.5 275.4) scale(0.55 1.25)"><title>2026-05-31: 10 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(493.7 275.4) scale(0.40 1.25)"><title>2026-06-01: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(500.6 275.4) scale(0.35 1.25)"><title>2026-06-02: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(504.1 275.4) scale(0.35 1.25)"><title>2026-06-03: 8 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(99.4 302.0) scale(0.35 1.24)"><title>2026-06-04: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(102.8 302.0) scale(0.35 1.24)"><title>2026-06-05: 2 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(109.6 302.0) scale(0.40 1.24)"><title>2026-06-06: 2 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(119.7 302.0) scale(0.55 1.24)"><title>2026-06-07: 7 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(132.8 302.0) scale(0.70 1.24)"><title>2026-06-08: 11 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(148.8 302.0) scale(0.83 1.24)"><title>2026-06-09: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(167.4 302.0) scale(0.94 1.24)"><title>2026-06-10: 4 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(188.3 302.0) scale(1.04 1.24)"><title>2026-06-11: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(211.1 302.0) scale(1.12 1.24)"><title>2026-06-12: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(235.4 302.0) scale(1.19 1.24)"><title>2026-06-13: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(260.8 302.0) scale(1.23 1.24)"><title>2026-06-14: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(286.8 302.0) scale(1.25 1.24)"><title>2026-06-15: 3 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(313.2 302.0) scale(1.25 1.24)"><title>2026-06-16: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(339.2 302.0) scale(1.23 1.24)"><title>2026-06-17: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(364.6 302.0) scale(1.19 1.24)"><title>2026-06-18: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(388.9 302.0) scale(1.12 1.24)"><title>2026-06-19: 8 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(411.7 302.0) scale(1.04 1.24)"><title>2026-06-20: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(432.6 302.0) scale(0.94 1.24)"><title>2026-06-21: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(451.2 302.0) scale(0.83 1.24)"><title>2026-06-22: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(467.2 302.0) scale(0.70 1.24)"><title>2026-06-23: 5 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(480.3 302.0) scale(0.55 1.24)"><title>2026-06-24: 8 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(490.4 302.0) scale(0.40 1.24)"><title>2026-06-25: 9 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(497.2 302.0) scale(0.35 1.24)"><title>2026-06-26: 4 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(500.6 302.0) scale(0.35 1.24)"><title>2026-06-27: 2 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(106.3 327.9) scale(0.35 1.23)"><title>2026-06-28: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(109.9 327.9) scale(0.35 1.23)"><title>2026-06-29: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(117.1 327.9) scale(0.42 1.23)"><title>2026-06-30: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(127.6 327.9) scale(0.58 1.23)"><title>2026-07-01: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(141.4 327.9) scale(0.72 1.23)"><title>2026-07-02: 4 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(158.1 327.9) scale(0.85 1.23)"><title>2026-07-03: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(177.5 327.9) scale(0.97 1.23)"><title>2026-07-04: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(199.1 327.9) scale(1.07 1.23)"><title>2026-07-05: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(222.7 327.9) scale(1.15 1.23)"><title>2026-07-06: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(247.6 327.9) scale(1.21 1.23)"><title>2026-07-07: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(273.6 327.9) scale(1.24 1.23)"><title>2026-07-08: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(300.0 327.9) scale(1.25 1.23)"><title>2026-07-09: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(326.4 327.9) scale(1.24 1.23)"><title>2026-07-10: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(352.4 327.9) scale(1.21 1.23)"><title>2026-07-11: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(377.3 327.9) scale(1.15 1.23)"><title>2026-07-12: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(400.9 327.9) scale(1.07 1.23)"><title>2026-07-13: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(422.5 327.9) scale(0.97 1.23)"><title>2026-07-14: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(441.9 327.9) scale(0.85 1.23)"><title>2026-07-15: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(458.6 327.9) scale(0.72 1.23)"><title>2026-07-16: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(472.4 327.9) scale(0.58 1.23)"><title>2026-07-17: 1 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(482.9 327.9) scale(0.42 1.23)"><title>2026-07-18: 7 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(490.1 327.9) scale(0.35 1.23)"><title>2026-07-19: 9 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(493.7 327.9) scale(0.35 1.23)"><title>2026-07-20: 7 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(116.6 352.7) scale(0.35 1.21)"><title>2026-07-21: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(120.3 352.7) scale(0.35 1.21)"><title>2026-07-22: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(127.7 352.7) scale(0.44 1.21)"><title>2026-07-23: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(138.6 352.7) scale(0.60 1.21)"><title>2026-07-24: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(152.8 352.7) scale(0.75 1.21)"><title>2026-07-25: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(170.0 352.7) scale(0.89 1.21)"><title>2026-07-26: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(189.8 352.7) scale(1.00 1.21)"><title>2026-07-27: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(211.9 352.7) scale(1.10 1.21)"><title>2026-07-28: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(235.7 352.7) scale(1.17 1.21)"><title>2026-07-29: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(260.9 352.7) scale(1.22 1.21)"><title>2026-07-30: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(286.9 352.7) scale(1.25 1.21)"><title>2026-07-31: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(313.1 352.7) scale(1.25 1.21)"><title>2026-08-01: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(339.1 352.7) scale(1.22 1.21)"><title>2026-08-02: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(364.3 352.7) scale(1.17 1.21)"><title>2026-08-03: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(388.1 352.7) scale(1.10 1.21)"><title>2026-08-04: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(410.2 352.7) scale(1.00 1.21)"><title>2026-08-05: 7 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(430.0 352.7) scale(0.89 1.21)"><title>2026-08-06: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(447.2 352.7) scale(0.75 1.21)"><title>2026-08-07: 2 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(461.4 352.7) scale(0.60 1.21)"><title>2026-08-08: 11 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(472.3 352.7) scale(0.44 1.21)"><title>2026-08-09: 8 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(479.7 352.7) scale(0.35 1.21)"><title>2026-08-10: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(483.4 352.7) scale(0.35 1.21)"><title>2026-08-11: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(130.1 375.9) scale(0.35 1.17)"><title>2026-08-12: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(134.3 375.9) scale(0.35 1.17)"><title>2026-08-13: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(142.5 375.9) scale(0.48 1.17)"><title>2026-08-14: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(154.7 375.9) scale(0.65 1.17)"><title>2026-08-15: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(170.4 375.9) scale(0.81 1.17)"><title>2026-08-16: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(189.3 375.9) scale(0.95 1.17)"><title>2026-08-17: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(210.9 375.9) scale(1.07 1.17)"><title>2026-08-18: 0 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(234.8 375.9) scale(1.16 1.17)"><title>2026-08-19: 11 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(260.2 375.9) scale(1.22 1.17)"><title>2026-08-20: 9 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(286.6 375.9) scale(1.25 1.17)"><title>2026-08-21: 4 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(313.4 375.9) scale(1.25 1.17)"><title>2026-08-22: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(339.8 375.9) scale(1.22 1.17)"><title>2026-08-23: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(365.2 375.9) scale(1.16 1.17)"><title>2026-08-24: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(389.1 375.9) scale(1.07 1.17)"><title>2026-08-25: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(410.7 375.9) scale(0.95 1.17)"><title>2026-08-26: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(429.6 375.9) scale(0.81 1.17)"><title>2026-08-27: 5 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(445.3 375.9) scale(0.65 1.17)"><title>2026-08-28: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(457.5 375.9) scale(0.48 1.17)"><title>2026-08-29: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(465.7 375.9) scale(0.35 1.17)"><title>2026-08-30: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(469.9 375.9) scale(0.35 1.17)"><title>2026-08-31: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(146.5 397.2) scale(0.35 1.13)"><title>2026-09-01: 2 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(151.1 397.2) scale(0.35 1.13)"><title>2026-09-02: 1 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(160.3 397.2) scale(0.53 1.13)"><title>2026-09-03: 2 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(173.7 397.2) scale(0.72 1.13)"><title>2026-09-04: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(191.0 397.2) scale(0.89 1.13)"><title>2026-09-05: 0 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(211.6 397.2) scale(1.03 1.13)"><title>2026-09-06: 13 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(234.9 397.2) scale(1.13 1.13)"><title>2026-09-07: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(260.1 397.2) scale(1.21 1.13)"><title>2026-09-08: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(286.6 397.2) scale(1.25 1.13)"><title>2026-09-09: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(313.4 397.2) scale(1.25 1.13)"><title>2026-09-10: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(339.9 397.2) scale(1.21 1.13)"><title>2026-09-11: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(365.1 397.2) scale(1.13 1.13)"><title>2026-09-12: 10 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(388.4 397.2) scale(1.03 1.13)"><title>2026-09-13: 4 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(409.0 397.2) scale(0.89 1.13)"><title>2026-09-14: 1 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(426.3 397.2) scale(0.72 1.13)"><title>2026-09-15: 2 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(439.7 397.2) scale(0.53 1.13)"><title>2026-09-16: 5 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(448.9 397.2) scale(0.35 1.13)"><title>2026-09-17: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(453.5 397.2) scale(0.35 1.13)"><title>2026-09-18: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(165.5 416.1) scale(0.35 1.08)"><title>2026-09-19: 1 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(170.7 416.1) scale(0.36 1.08)"><title>2026-09-20: 5 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(180.8 416.1) scale(0.59 1.08)"><title>2026-09-21: 6 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(195.5 416.1) scale(0.79 1.08)"><title>2026-09-22: 11 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(214.3 416.1) scale(0.97 1.08)"><title>2026-09-23: 11 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(236.3 416.1) scale(1.10 1.08)"><title>2026-09-24: 4 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(260.8 416.1) scale(1.20 1.08)"><title>2026-09-25: 3 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(286.8 416.1) scale(1.25 1.08)"><title>2026-09-26: 11 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(313.2 416.1) scale(1.25 1.08)"><title>2026-09-27: 5 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(339.2 416.1) scale(1.20 1.08)"><title>2026-09-28: 3 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(363.7 416.1) scale(1.10 1.08)"><title>2026-09-29: 13 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(385.7 416.1) scale(0.97 1.08)"><title>2026-09-30: 9 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(404.5 416.1) scale(0.79 1.08)"><title>2026-10-01: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(419.2 416.1) scale(0.59 1.08)"><title>2026-10-02: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(429.3 416.1) scale(0.36 1.08)"><title>2026-10-03: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(434.5 416.1) scale(0.35 1.08)"><title>2026-10-04: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(186.9 432.5) scale(0.35 1.02)"><title>2026-10-05: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(193.5 432.5) scale(0.44 1.02)"><title>2026-10-06: 8 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(206.3 432.5) scale(0.71 1.02)"><title>2026-10-07: 8 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(224.5 432.5) scale(0.94 1.02)"><title>2026-10-08: 5 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(247.1 432.5) scale(1.11 1.02)"><title>2026-10-09: 3 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(272.7 432.5) scale(1.22 1.02)"><title>2026-10-10: 2 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(300.0 432.5) scale(1.25 1.02)"><title>2026-10-11: 7 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(327.3 432.5) scale(1.22 1.02)"><title>2026-10-12: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(352.9 432.5) scale(1.11 1.02)"><title>2026-10-13: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(375.5 432.5) scale(0.94 1.02)"><title>2026-10-14: 5 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(393.7 432.5) scale(0.71 1.02)"><title>2026-10-15: 1 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(406.5 432.5) scale(0.44 1.02)"><title>2026-10-16: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(413.1 432.5) scale(0.35 1.02)"><title>2026-10-17: 0 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(210.3 445.9) scale(0.35 0.94)"><title>2026-10-18: 4 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(217.5 445.9) scale(0.52 0.94)"><title>2026-10-19: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(231.5 445.9) scale(0.82 0.94)"><title>2026-10-20: 2 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(251.0 445.9) scale(1.05 0.94)"><title>2026-10-21: 0 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(274.5 445.9) scale(1.20 0.94)"><title>2026-10-22: 11 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(300.0 445.9) scale(1.25 0.94)"><title>2026-10-23: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(325.5 445.9) scale(1.20 0.94)"><title>2026-10-24: 0 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(349.0 445.9) scale(1.05 0.94)"><title>2026-10-25: 12 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(368.5 445.9) scale(0.82 0.94)"><title>2026-10-26: 4 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(382.5 445.9) scale(0.52 0.94)"><title>2026-10-27: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(389.7 445.9) scale(0.35 0.94)"><title>2026-10-28: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(235.4 456.1) scale(0.35 0.84)"><title>2026-10-29: 8 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(245.2 456.1) scale(0.70 0.84)"><title>2026-10-30: 1 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(263.4 456.1) scale(1.04 0.84)"><title>2026-10-31: 0 contribuciones</title></use>
+<use href="#g4" xlink:href="#g4" transform="translate(287.1 456.1) scale(1.23 0.84)"><title>2026-11-01: 12 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(312.9 456.1) scale(1.23 0.84)"><title>2026-11-02: 0 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(336.6 456.1) scale(1.04 0.84)"><title>2026-11-03: 2 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(354.8 456.1) scale(0.70 0.84)"><title>2026-11-04: 5 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(364.6 456.1) scale(0.35 0.84)"><title>2026-11-05: 2 contribuciones</title></use>
+<use href="#g2" xlink:href="#g2" transform="translate(262.0 463.1) scale(0.39 0.71)"><title>2026-11-06: 6 contribuciones</title></use>
+<use href="#g1" xlink:href="#g1" transform="translate(276.5 463.1) scale(1.01 0.71)"><title>2026-11-07: 3 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(300.0 463.1) scale(1.25 0.71)"><title>2026-11-08: 0 contribuciones</title></use>
+<use href="#g3" xlink:href="#g3" transform="translate(323.5 463.1) scale(1.01 0.71)"><title>2026-11-09: 8 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(338.0 463.1) scale(0.39 0.71)"><title>2026-11-10: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(290.5 466.6) scale(0.89 0.56)"><title>2026-11-11: 0 contribuciones</title></use>
+<use href="#g0" xlink:href="#g0" transform="translate(309.5 466.6) scale(0.89 0.56)"><title>2026-11-12: 0 contribuciones</title></use>
+</g>
+<circle cx="300" cy="262" r="211" fill="url(#shade)"/>
+<circle cx="300" cy="262" r="211" fill="none" stroke="#D8A0DF" stroke-opacity=".35"/>
+<circle class="pulse" cx="309.5" cy="466.6" r="9" fill="none" stroke="#FFEFF7" stroke-width="1.5"/>
+<g transform="translate(300 262) rotate(-14)"><path d="M-268 0A268 54 0 0 0 268 0" fill="none" stroke="#FE94C1" stroke-width="2.2" stroke-linecap="round" stroke-dasharray=".1 7" opacity=".95"/></g>
+<g font-family="'Avenir Next', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" fill="#FFEFF7">
+<text x="600" y="92" font-size="15" fill="#D8A0DF" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">@tu-usuario</text>
+<text x="600" y="150" font-size="54" font-weight="700" letter-spacing="-1.5">922</text>
+<text x="600" y="178" font-size="15" fill="#B0B1F9">contribuciones en el último año</text>
+<text x="600" y="230" font-size="19" font-weight="600" fill="#FE94C1">0 días</text>
+<text x="692" y="230" font-size="14" fill="#FFEFF7" opacity=".75">racha actual</text>
+<text x="600" y="270" font-size="19" font-weight="600" fill="#FE94C1">12 días</text>
+<text x="692" y="270" font-size="14" fill="#FFEFF7" opacity=".75">mejor racha</text>
+<text x="600" y="310" font-size="19" font-weight="600" fill="#FE94C1">179</text>
+<text x="692" y="310" font-size="14" fill="#FFEFF7" opacity=".75">días con actividad</text>
+<text x="600" y="350" font-size="19" font-weight="600" fill="#FE94C1">13</text>
+<text x="692" y="350" font-size="14" fill="#FFEFF7" opacity=".75">récord, el 2026-09-06</text>
+<text x="600" y="420" font-size="12.5" opacity=".6">menos</text>
+<use href="#g0" xlink:href="#g0" transform="translate(662 415.5) scale(.8)"/>
+<use href="#g1" xlink:href="#g1" transform="translate(688 415.5) scale(.8)"/>
+<use href="#g2" xlink:href="#g2" transform="translate(714 415.5) scale(.8)"/>
+<use href="#g3" xlink:href="#g3" transform="translate(740 415.5) scale(.8)"/>
+<use href="#g4" xlink:href="#g4" transform="translate(766 415.5) scale(.8)"/>
+<text x="792" y="420" font-size="12.5" opacity=".6">más</text>
+<text x="600" y="454" font-size="12" opacity=".45">cada pixel es un día · el pulso es hoy</text>
+</g></svg>
