@@ -126,7 +126,7 @@ def demo_data():
 # ──────────────────────────── geometría ────────────────────────────
 
 def sphere_rows(n):
-    """Filas de latitud con celdas ∝ cos(lat): mismo espaciado sobre la esfera."""
+    """Filas de latitud con celdas ∝ cos(lat): cada día ocupa más o menos la misma área."""
     rows = 10
     while True:
         lats = [math.pi / 2 - (i + 0.5) * math.pi / rows for i in range(rows)]
@@ -136,21 +136,31 @@ def sphere_rows(n):
         rows += 1
 
 
-def sphere_cells(n):
-    lats, counts = sphere_rows(n)
-    cells = []
-    for r, (la, k) in enumerate(zip(lats, counts)):
-        for j in range(k):
-            lo = -math.pi / 2 + (j + 0.5) * math.pi / k
-            cells.append({"row": r, "lat": la, "lon": lo,
-                          "x": math.cos(la) * math.sin(lo), "y": -math.sin(la)})
-    return cells, lats, counts
+class Globe:
+    """Un día = un bloque del disco. Hoy queda al centro y el año se enrolla en espiral hacia el borde."""
 
+    def __init__(self, days, G=22):
+        self.G = G
+        cells = []
+        for gy in range(G):
+            for gx in range(G):
+                u, v = (gx + .5) / G * 2 - 1, (gy + .5) / G * 2 - 1
+                if u * u + v * v <= 1:
+                    ring = round(math.hypot(gx + .5 - G / 2, gy + .5 - G / 2))
+                    ang = (math.atan2(u, -v)) % (2 * math.pi)  # empieza arriba, sentido horario
+                    cells.append(((ring, ang), (gx, gy)))
+        cells.sort()
+        recent_first = list(reversed(days[-len(cells):]))
+        self.grid = {}
+        for rank, (_, pos) in enumerate(cells):
+            self.grid[pos] = recent_first[rank] if rank < len(recent_first) else None
+        self.today = days[-1]
 
-def assign(days, n_cells):
-    """Último día al final; las celdas sobrantes del inicio quedan como 'vacío'."""
-    days = days[-n_cells:]
-    return [None] * (n_cells - len(days)) + days
+    def day_at(self, u, v):
+        """u, v en [-1, 1] -> día del bloque (o None si es océano)."""
+        gx = min(self.G - 1, max(0, int((u + 1) / 2 * self.G)))
+        gy = min(self.G - 1, max(0, int((v + 1) / 2 * self.G)))
+        return self.grid.get((gx, gy))
 
 
 def streaks(days):
@@ -170,121 +180,121 @@ def streaks(days):
 
 # ───────────────────────────── planeta ─────────────────────────────
 
-GLYPHS = f"""
-  <g id="g0"><path d="M0-4.6Q0 0 4.6 0Q0 0 0 4.6Q0 0-4.6 0Q0 0 0-4.6Z" fill="{C['dim']}"/></g>
-  <g id="g1"><circle r="7.2" fill="none" stroke="{C['lila']}" stroke-width="1.6"/></g>
-  <g id="g2"><rect x="-8" y="-8" width="16" height="16" fill="{C['magenta']}" opacity=".72"/>
-    <path d="M-4-8V8M0-8V8M4-8V8" stroke="{C['void']}" stroke-width="1.1" opacity=".45"/></g>
-  <g id="g3"><rect x="-2.3" y="-8" width="4.6" height="16" fill="{C['rosa']}"/>
-    <rect x="-8" y="-2.3" width="16" height="4.6" fill="{C['rosa']}"/></g>
-  <g id="g4"><circle r="8.6" fill="{C['fucsia']}"/>
-    <path d="M-3.6-3.6L3.6 3.6M3.6-3.6L-3.6 3.6" stroke="{C['crema']}" stroke-width="2" stroke-linecap="round"/></g>
-"""
+BAYER = [[0, 8, 2, 10], [12, 4, 14, 6], [3, 11, 1, 9], [15, 7, 13, 5]]
+OCEAN = ["#181128", "#1F1733", "#291E42", "#352852", "#463564"]        # de sombra a luz
+LEVEL = ["", "#8F8BEA", "#D8A0DF", "#FE94C1", "#FF4FB3"]               # lila → fucsia
+LEVEL_DARK = ["", "#4B4787", "#7A5583", "#93526F", "#9A2C6A"]
+LIGHT = (-0.52, -0.58, 0.62)
 
 
-def render_planet(login, total, days):
+def lighting(u, v):
+    z = math.sqrt(max(0, 1 - u * u - v * v))
+    n = math.sqrt(sum(c * c for c in LIGHT))
+    return max(0.0, (u * LIGHT[0] + v * LIGHT[1] + z * LIGHT[2]) / n)
+
+
+def render_planet(login, total, days, N=44, P=10):
     W, H = 900, 520
-    cx, cy, R = 300, 262, 205
-    cells, lats, _ = sphere_cells(len(days))
-    data = assign(days, len(cells))
+    cx, cy = 290, 260
+    x0, y0 = cx - N * P / 2, cy - N * P / 2
+    globe = Globe(days, G=N // 2)
     rnd = random.Random(42)
-    s = .84 * R * math.pi / len(lats) / 18  # tamaño del glifo según el espaciado
 
-    out = [f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
-           f'viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
-           f'aria-label="Planeta con {total} contribuciones del último año">']
-    out.append(f"""<defs>{GLYPHS}
-  <radialGradient id="shade" cx="34%" cy="30%" r="78%">
-    <stop offset="0" stop-color="#000" stop-opacity="0"/>
-    <stop offset=".55" stop-color="#000" stop-opacity=".12"/>
-    <stop offset="1" stop-color="#000" stop-opacity=".78"/>
-  </radialGradient>
-  <radialGradient id="ocean" cx="40%" cy="36%" r="70%">
-    <stop offset="0" stop-color="#1E1830"/><stop offset="1" stop-color="{C['void']}"/>
-  </radialGradient>
-  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="14"/></filter>
-  <clipPath id="disk"><circle cx="{cx}" cy="{cy}" r="{R + 6}"/></clipPath>
-  <style>
-    .tw{{animation:tw 4s ease-in-out infinite}}
-    @keyframes tw{{0%,100%{{opacity:.15}}50%{{opacity:.9}}}}
-    .pulse{{animation:pulse 2.4s ease-out infinite;transform-box:fill-box;transform-origin:center}}
-    @keyframes pulse{{0%{{transform:scale(.6);opacity:.95}}100%{{transform:scale(2.2);opacity:0}}}}
-    @media (prefers-reduced-motion:reduce){{.tw,.pulse{{animation:none}}}}
-  </style>
-</defs>""")
-    out.append(f'<rect width="{W}" height="{H}" rx="18" fill="{C["void"]}"/>')
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
+           f'shape-rendering="crispEdges" role="img" '
+           f'aria-label="Planeta pixel con {total} contribuciones del último año">']
+    out.append("""<style>
+  .tw{animation:tw 3.2s steps(2) infinite}
+  @keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
+  .hoy{animation:hoy 1s steps(1) infinite}
+  @keyframes hoy{0%{fill:#FFEFF7}50%{fill:#FF4FB3}}
+  @media (prefers-reduced-motion:reduce){.tw,.hoy{animation:none}}
+</style>""")
+    out.append(f'<rect width="{W}" height="{H}" fill="{C["void"]}"/>')
 
-    # estrellas de fondo
-    for _ in range(70):
-        x, y = rnd.uniform(10, W - 10), rnd.uniform(10, H - 10)
-        if math.hypot(x - cx, y - cy) < R + 30 or (575 < x < 870 and 60 < y < 470):
+    # estrellas pixel
+    for _ in range(46):
+        x = rnd.randrange(8, W - 8) // 4 * 4
+        y = rnd.randrange(8, H - 8) // 4 * 4
+        if math.hypot(x - cx, y - cy) < N * P / 2 + 50 or (560 < x < 880 and 50 < y < 480):
             continue
         col = rnd.choice([C["lila"], C["magenta"], C["rosa"], C["crema"]])
-        delay = rnd.uniform(0, 4)
-        out.append(f'<circle class="tw" style="animation-delay:{delay:.2f}s" cx="{x:.1f}" cy="{y:.1f}" '
-                   f'r="{rnd.uniform(.6, 1.6):.2f}" fill="{col}"/>')
+        d = f' style="animation-delay:{rnd.uniform(0, 3.2):.1f}s"'
+        if rnd.random() < .22:   # destello en cruz
+            out.append(f'<g class="tw"{d} fill="{col}"><rect x="{x}" y="{y - 4}" width="4" height="12"/>'
+                       f'<rect x="{x - 4}" y="{y}" width="12" height="4"/></g>')
+        else:
+            out.append(f'<rect class="tw"{d} x="{x}" y="{y}" width="4" height="4" fill="{col}"/>')
 
-    # anillo: mitad trasera
-    ring = f'transform="translate({cx} {cy}) rotate(-14)"'
-    out.append(f'<g {ring}><path d="M-268 0A268 54 0 0 1 268 0" fill="none" stroke="{C["lila"]}" '
-               f'stroke-width="1.6" stroke-linecap="round" stroke-dasharray=".1 7" opacity=".5"/></g>')
+    # anillo pixel (puntos sobre una elipse inclinada)
+    ring_back, ring_front = [], []
+    rx, ry, tilt = N * P * .66, N * P * .13, math.radians(-13)
+    for i in range(110):
+        t = 2 * math.pi * i / 110
+        ex, ey = rx * math.cos(t), ry * math.sin(t)
+        x = cx + ex * math.cos(tilt) - ey * math.sin(tilt)
+        y = cy + ex * math.sin(tilt) + ey * math.cos(tilt)
+        gx, gy = round((x - x0) / P * 2) / 2, round((y - y0) / P * 2) / 2
+        sq = (x0 + gx * P, y0 + gy * P)
+        (ring_front if math.sin(t) > 0 else ring_back).append(sq)
 
-    # atmósfera + disco
-    out.append(f'<circle cx="{cx}" cy="{cy}" r="{R + 4}" fill="{C["magenta"]}" opacity=".28" filter="url(#glow)"/>')
-    out.append(f'<circle cx="{cx}" cy="{cy}" r="{R + 6}" fill="url(#ocean)"/>')
+    def ring(points, col, op):
+        return "".join(f'<rect x="{x:.0f}" y="{y:.0f}" width="5" height="5" fill="{col}" opacity="{op}"/>'
+                       for x, y in points)
 
-    # celdas = días
-    today_xy = None
-    out.append('<g clip-path="url(#disk)">')
-    for cell, day in zip(cells, data):
-        x, y = cx + cell["x"] * R, cy + cell["y"] * R
-        sx = max(.28, math.cos(cell["lon"]))
-        sy = max(.45, math.cos(cell["lat"]) ** .35)
-        lvl = 0 if day is None else day["level"]
-        op = ' opacity=".35"' if day is None else ""
-        title = "" if day is None else f'<title>{day["date"]}: {day["count"]} contribuciones</title>'
-        out.append(f'<use href="#g{lvl}" xlink:href="#g{lvl}" '
-                   f'transform="translate({x:.1f} {y:.1f}) scale({sx * s:.2f} {sy * s:.2f})"{op}>{title}</use>')
-        if day is data[-1]:
-            today_xy = (x, y)
-    out.append("</g>")
+    out.append(ring(ring_back, C["lila"], .45))
 
-    # luz y borde
-    out.append(f'<circle cx="{cx}" cy="{cy}" r="{R + 6}" fill="url(#shade)"/>')
-    out.append(f'<circle cx="{cx}" cy="{cy}" r="{R + 6}" fill="none" stroke="{C["magenta"]}" stroke-opacity=".35"/>')
+    # el planeta, pixel por pixel
+    today_px = []
+    for gy in range(N):
+        for gx in range(N):
+            u, v = (gx + .5) / (N / 2) - 1, (gy + .5) / (N / 2) - 1
+            if u * u + v * v > 1:
+                continue
+            day = globe.day_at(u, v)
+            b = lighting(u, v)
+            thr = (BAYER[gy % 4][gx % 4] + .5) / 16
+            x, y = x0 + gx * P, y0 + gy * P
+            if day is not None and day is globe.today:
+                today_px.append((x, y))
+                continue
+            lvl = 0 if day is None else day["level"]
+            rim = math.hypot(u, v) > 1 - 1.6 / (N / 2) and b > .42
+            if lvl == 0:
+                col = "#5A4A86" if rim else OCEAN[min(4, int(b * 4.2 + thr))]
+            else:
+                col = LEVEL[lvl] if b + (thr - .5) * .3 > .22 else LEVEL_DARK[lvl]
+            tip = "" if day is None else f'<title>{day["date"]}: {day["count"]} contribuciones</title>'
+            out.append(f'<rect x="{x:.0f}" y="{y:.0f}" width="{P}" height="{P}" fill="{col}">{tip}</rect>')
+    for x, y in today_px:
+        out.append(f'<rect class="hoy" x="{x:.0f}" y="{y:.0f}" width="{P}" height="{P}" fill="{C["crema"]}">'
+                   f'<title>hoy: {globe.today["count"]} contribuciones</title></rect>')
 
-    if today_xy:
-        tx, ty = today_xy
-        out.append(f'<circle class="pulse" cx="{tx:.1f}" cy="{ty:.1f}" r="9" fill="none" '
-                   f'stroke="{C["crema"]}" stroke-width="1.5"/>')
+    out.append(ring(ring_front, C["rosa"], .9))
 
-    # anillo: mitad delantera
-    out.append(f'<g {ring}><path d="M-268 0A268 54 0 0 0 268 0" fill="none" stroke="{C["rosa"]}" '
-               f'stroke-width="2.2" stroke-linecap="round" stroke-dasharray=".1 7" opacity=".95"/></g>')
-
-    # panel de texto
+    # panel
     cur, best = streaks(days)
     busiest = max(days, key=lambda d: d["count"])
     active = sum(1 for d in days if d["count"])
-    px = 600
-    out.append(f'<g font-family="{SANS}" fill="{C["crema"]}">')
-    out.append(f'<text x="{px}" y="92" font-size="15" fill="{C["magenta"]}" font-family="{MONO}">@{login}</text>')
-    out.append(f'<text x="{px}" y="150" font-size="54" font-weight="700" letter-spacing="-1.5">{total}</text>')
-    out.append(f'<text x="{px}" y="178" font-size="15" fill="{C["lila"]}">contribuciones en el último año</text>')
-    stats = [(f"{cur} días", "racha actual"), (f"{best} días", "mejor racha"),
-             (f"{active}", "días con actividad"), (f"{busiest['count']}", f"récord, el {busiest['date']}")]
+    px = 590
+    out.append(f'<g font-family="{MONO}" fill="{C["crema"]}">')
+    out.append(f'<text x="{px}" y="92" font-size="15" fill="{C["magenta"]}">@{login}</text>')
+    out.append(f'<text x="{px}" y="150" font-size="56" font-weight="700" letter-spacing="-2">{total}</text>')
+    out.append(f'<text x="{px}" y="178" font-size="14" fill="{C["lila"]}">contribuciones este año</text>')
+    stats = [(f"{cur}d", "racha actual"), (f"{best}d", "mejor racha"),
+             (f"{active}", "días activos"), (f"{busiest['count']}", f"récord {busiest['date']}")]
     for i, (big, small) in enumerate(stats):
-        y = 230 + i * 40
-        out.append(f'<text x="{px}" y="{y}" font-size="19" font-weight="600" fill="{C["rosa"]}">{big}</text>')
-        out.append(f'<text x="{px + 92}" y="{y}" font-size="14" fill="{C["crema"]}" opacity=".75">{small}</text>')
-
-    # leyenda
-    ly = 420
-    out.append(f'<text x="{px}" y="{ly}" font-size="12.5" opacity=".6">menos</text>')
-    for i in range(5):
-        out.append(f'<use href="#g{i}" xlink:href="#g{i}" transform="translate({px + 62 + i * 26} {ly - 4.5}) scale(.8)"/>')
-    out.append(f'<text x="{px + 62 + 5 * 26}" y="{ly}" font-size="12.5" opacity=".6">más</text>')
-    out.append(f'<text x="{px}" y="{ly + 34}" font-size="12" opacity=".45">cada pixel es un día · el pulso es hoy</text>')
+        y = 228 + i * 38
+        out.append(f'<text x="{px}" y="{y}" font-size="18" font-weight="700" fill="{C["rosa"]}">{big}</text>')
+        out.append(f'<text x="{px + 70}" y="{y}" font-size="13" opacity=".75">{small}</text>')
+    ly = 418
+    out.append(f'<text x="{px}" y="{ly}" font-size="12" opacity=".6">menos</text>')
+    sw = [OCEAN[3]] + LEVEL[1:]
+    for i, col in enumerate(sw):
+        out.append(f'<rect x="{px + 52 + i * 18}" y="{ly - 11}" width="12" height="12" fill="{col}"/>')
+    out.append(f'<text x="{px + 52 + 5 * 18 + 4}" y="{ly}" font-size="12" opacity=".6">más</text>')
+    out.append(f'<text x="{px}" y="{ly + 32}" font-size="11.5" opacity=".45">cada bloque es un día.</text>')
+    out.append(f'<text x="{px}" y="{ly + 50}" font-size="11.5" opacity=".45">hoy parpadea al centro.</text>')
     out.append("</g></svg>")
     return "\n".join(out)
 
@@ -360,7 +370,7 @@ def render_languages(langs, repos):
                        f'text-anchor="middle" fill="{ink}">{label}</text>')
             out.append(f'<text x="{X:.1f}" y="{Y + fs * 1.15:.1f}" font-size="{max(9.5, fs * .62):.1f}" '
                        f'text-anchor="middle" fill="{ink}" opacity=".7">{pct:.1f}%</text>')
-        else:
+        elif Rr > 16:
             out.append(f'<text x="{X:.1f}" y="{Y + 4:.1f}" font-size="10" font-weight="700" '
                        f'text-anchor="middle" fill="{ink}"><title>{name} {pct:.1f}%</title>{label}</text>')
     out.append("</g></svg>")
@@ -370,28 +380,25 @@ def render_languages(langs, repos):
 # ─────────────────────────── planeta ASCII ───────────────────────────
 
 def render_ascii(days, cols=52, rows=24):
-    cells, lats, counts = sphere_cells(len(days))
-    data = assign(days, len(cells))
-    starts, acc = [], 0
-    for c in counts:
-        starts.append(acc); acc += c
-    chars = "·:oO@"  # ancho fijo en cualquier fuente monoespaciada
+    globe = Globe(days)
+    shade = ".:"           # océano: sombra / luz
+    chars = " +oO@"        # niveles de actividad
     lines = []
     for r in range(rows):
-        y = (r + .5) / rows * 2 - 1
+        v = (r + .5) / rows * 2 - 1
         line = ""
         for c in range(cols):
-            x = (c + .5) / cols * 2 - 1
-            if x * x + y * y > 1:
+            u = (c + .5) / cols * 2 - 1
+            if u * u + v * v > 1:
                 line += " "
                 continue
-            lat = math.asin(-y)
-            lon = math.asin(max(-1, min(1, x / max(1e-6, math.cos(lat)))))
-            ri = min(len(lats) - 1, int((math.pi / 2 - lat) / (math.pi / len(lats))))
-            k = counts[ri]
-            j = min(k - 1, int((lon + math.pi / 2) / (math.pi / k)))
-            day = data[starts[ri] + j]
-            line += " " if day is None else chars[day["level"]]
+            day = globe.day_at(u, v)
+            if day is globe.today:
+                line += "*"
+            elif day is None or day["level"] == 0:
+                line += shade[min(1, int(lighting(u, v) * 2.4))]
+            else:
+                line += chars[day["level"]]
         lines.append(line.rstrip())
     return "\n".join(lines)
 
@@ -401,7 +408,7 @@ def inject_readme(ascii_art, total):
         return
     text = README.read_text(encoding="utf-8")
     block = (f"<!-- PLANET:START -->\n```text\n{ascii_art}\n\n"
-             f"  · nada   : poco   o algo   O harto   @ a full      {total} contribuciones\n```\n"
+             f"  .: nada   + poco   o algo   O harto   @ a full   * hoy      {total} contribuciones\n```\n"
              f"<!-- PLANET:END -->")
     new = re.sub(r"<!-- PLANET:START -->.*?<!-- PLANET:END -->", block, text, flags=re.S)
     README.write_text(new, encoding="utf-8")
