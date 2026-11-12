@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400" role="img" aria-label="Lenguajes más usados">
+<rect width="900" height="400" rx="18" fill="#FBF6FA"/>
+<g font-family="'Avenir Next', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+<text x="40" y="44" font-size="20" font-weight="700" fill="#2A1838">lenguajes</text>
+<text x="140" y="44" font-size="14" fill="#6E6CE0">en 5 repos públicos y 1 privado</text>
+<text x="860" y="44" font-size="12" text-anchor="end" fill="#2A1838" opacity=".5">borde punteado = sobre todo privado</text>
+<circle cx="446.8" cy="212.7" r="142.7" fill="#E8559A"/>
+<circle cx="446.8" cy="212.7" r="146.7" fill="none" stroke="#E8559A" stroke-width="1.3" stroke-dasharray="3 4"/>
+<text x="446.8" y="215.1" font-size="24.0" font-weight="700" text-anchor="middle" fill="#FFF7FB">TypeScript</text>
+<text x="446.8" y="240.3" font-size="14.9" text-anchor="middle" fill="#FFF7FB" opacity=".7">68.4%</text>
+<circle cx="658.7" cy="212.7" r="57.1" fill="#E8661A"/>
+<text x="658.7" y="214.3" font-size="15.9" font-weight="700" text-anchor="middle" fill="#FFF7FB">Python</text>
+<text x="658.7" y="230.9" font-size="9.8" text-anchor="middle" fill="#FFF7FB" opacity=".7">11.0%</text>
+<circle cx="238.1" cy="212.7" r="53.9" fill="#6E6CE0"/>
+<text x="238.1" y="214.2" font-size="15.0" font-weight="700" text-anchor="middle" fill="#FFF7FB">JavaScript</text>
+<text x="238.1" y="229.9" font-size="9.5" text-anchor="middle" fill="#FFF7FB" opacity=".7">9.8%</text>
+<circle cx="615.6" cy="316.7" r="43.3" fill="#D6157F"/>
+<text x="615.6" y="317.9" font-size="12.0" font-weight="700" text-anchor="middle" fill="#FFF7FB">CSS</text>
+<text x="615.6" y="330.5" font-size="9.5" text-anchor="middle" fill="#FFF7FB" opacity=".7">6.3%</text>
+<circle cx="612.9" cy="119.9" r="34.3" fill="#6B2FE0"/>
+<circle cx="612.9" cy="119.9" r="38.3" fill="none" stroke="#6B2FE0" stroke-width="1.3" stroke-dasharray="3 4"/>
+<text x="612.9" y="120.9" font-size="10.0" font-weight="700" text-anchor="middle" fill="#FFF7FB">PLpgSQL</text>
+<text x="612.9" y="131.4" font-size="9.5" text-anchor="middle" fill="#FFF7FB" opacity=".7">4.0%</text>
+<circle cx="289.6" cy="154.0" r="12.0" fill="#D98A2B"/>
+<circle cx="292.5" cy="260.4" r="6.3" fill="#B35DBF"/>
+<circle cx="597.5" cy="253.0" r="1.2" fill="#2A1838"/>
+<circle cx="597.4" cy="172.3" r="1.2" fill="#E8559A"/>
+</g></svg>
