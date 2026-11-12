@@ -22,11 +22,7 @@
 <text x="612.9" y="120.9" font-size="10.0" font-weight="700" text-anchor="middle" fill="#0A0810">PLpgSQL</text>
 <text x="612.9" y="131.4" font-size="9.5" text-anchor="middle" fill="#0A0810" opacity=".7">4.0%</text>
 <circle cx="289.6" cy="154.0" r="12.0" fill="#FE94C1"/>
-<text x="289.6" y="158.0" font-size="10" font-weight="700" text-anchor="middle" fill="#0A0810"><title>PHP 0.5%</title>PHP</text>
 <circle cx="292.5" cy="260.4" r="6.3" fill="#D8A0DF"/>
-<text x="292.5" y="264.4" font-size="10" font-weight="700" text-anchor="middle" fill="#0A0810"><title>HTML 0.1%</title>HTM</text>
 <circle cx="597.5" cy="253.0" r="1.2" fill="#B0B1F9"/>
-<text x="597.5" y="257.0" font-size="10" font-weight="700" text-anchor="middle" fill="#0A0810"><title>Procfile 0.0%</title>Pro</text>
 <circle cx="597.4" cy="172.3" r="1.2" fill="#FF4FB3"/>
-<text x="597.4" y="176.3" font-size="10" font-weight="700" text-anchor="middle" fill="#0A0810"><title>Rust 0.0%</title>Rus</text>
 </g></svg>
