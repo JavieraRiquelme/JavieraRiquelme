@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
 Genera los assets del perfil:
+  (cada imagen sale en dos versiones: -dark.svg y -light.svg)
   assets/planet.svg     -> planeta donde cada "pixel" es un día de contribuciones
+  assets/neurons.svg    -> dos neuronas: repos públicos y privados como dendritas
   assets/languages.svg  -> burbujas con los lenguajes de tus repos (públicos + privados)
   README.md             -> reemplaza el bloque ASCII entre <!-- PLANET:START/END -->
 
@@ -38,7 +40,40 @@ C = {
     "rosa": "#FE94C1",      # soft pink
     "fucsia": "#FF4FB3",
     "crema": "#FFEFF7",
+    "naranja": "#FF8A3D",
+    "ambar": "#FFB870",
+    "violeta": "#8B4DFF",
+    "indigo": "#170C2C",
 }
+THEMES = {
+    "dark": {
+        "C": {"void": "#0A0810", "space": "#110E19", "dim": "#3E3558", "lila": "#B0B1F9",
+              "magenta": "#D8A0DF", "rosa": "#FE94C1", "fucsia": "#FF4FB3", "crema": "#FFEFF7",
+              "naranja": "#FF8A3D", "ambar": "#FFB870", "violeta": "#8B4DFF", "indigo": "#170C2C",
+              "rim": "#5A4A86", "hoy": "#FFEFF7", "outline": ""},
+        "OCEAN": ["#181128", "#1F1733", "#291E42", "#352852", "#463564"],
+        "LEVEL": ["", "#8F8BEA", "#D8A0DF", "#FE94C1", "#FF4FB3"],
+        "LEVEL_DARK": ["", "#4B4787", "#7A5583", "#93526F", "#9A2C6A"],
+    },
+    "light": {
+        "C": {"void": "#FBF6FA", "space": "#F3EAF3", "dim": "#D9CDE6", "lila": "#6E6CE0",
+              "magenta": "#B35DBF", "rosa": "#E8559A", "fucsia": "#D6157F", "crema": "#2A1838",
+              "naranja": "#E8661A", "ambar": "#D98A2B", "violeta": "#6B2FE0", "indigo": "#170C2C",
+              "rim": "#FFFFFF", "hoy": "#2A1838", "outline": "#CFC2E3"},
+        "OCEAN": ["#A596CB", "#B6A9D8", "#C8BDE5", "#D9D0EF", "#E9E3F7"],
+        "LEVEL": ["", "#6E6CE0", "#B35DBF", "#E8559A", "#D6157F"],
+        "LEVEL_DARK": ["", "#4B4787", "#7A3D85", "#A33A6C", "#8E0F55"],
+    },
+}
+
+
+def apply_theme(name):
+    """Cambia la paleta en su lugar; todas las funciones la leen al dibujar."""
+    t = THEMES[name]
+    C.clear(); C.update(t["C"])
+    OCEAN[:] = t["OCEAN"]; LEVEL[:] = t["LEVEL"]; LEVEL_DARK[:] = t["LEVEL_DARK"]
+
+
 MONO = "ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace"
 SANS = "'Avenir Next', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
 
@@ -81,13 +116,19 @@ def fetch_languages():
     q = """query($after: String) { viewer { repositories(first: 100, after: $after,
           ownerAffiliations: OWNER, isFork: false) {
           pageInfo { hasNextPage endCursor }
-          nodes { isPrivate languages(first: 25) { edges { size node { name } } } } } } }"""
-    langs, after, repos = {}, None, {"public": 0, "private": 0}
+          nodes { isPrivate primaryLanguage { name }
+            defaultBranchRef { target { ... on Commit { history { totalCount } } } }
+            languages(first: 25) { edges { size node { name } } } } } } }"""
+    langs, after, repos = {}, None, {"public": 0, "private": 0, "list": []}
     while True:
         page = gql(q, {"after": after})["viewer"]["repositories"]
         for repo in page["nodes"]:
             kind = "private" if repo["isPrivate"] else "public"
             repos[kind] += 1
+            ref = repo["defaultBranchRef"] or {}
+            commits = ((ref.get("target") or {}).get("history") or {}).get("totalCount", 0)
+            repos["list"].append({"private": repo["isPrivate"], "commits": commits,
+                                  "lang": (repo["primaryLanguage"] or {}).get("name")})
             for e in repo["languages"]["edges"]:
                 slot = langs.setdefault(e["node"]["name"], {"public": 0, "private": 0})
                 slot[kind] += e["size"]
@@ -120,7 +161,10 @@ def demo_data():
         "Rust": {"public": 30_000, "private": 0},
         "SQL": {"public": 5_000, "private": 22_000},
     }
-    return "tu-usuario", sum(d["count"] for d in days), days, langs, {"public": 14, "private": 9}
+    names = list(langs)
+    rlist = [{"private": i % 3 == 0, "commits": int(rnd.paretovariate(1.1) * 12),
+              "lang": names[min(len(names) - 1, int(rnd.expovariate(.7)))]} for i in range(23)]
+    return "tu-usuario", sum(d["count"] for d in days), days, langs, {"public": 15, "private": 8, "list": rlist}
 
 
 # ──────────────────────────── geometría ────────────────────────────
@@ -207,10 +251,10 @@ def render_planet(login, total, days, N=44, P=10):
   .tw{animation:tw 3.2s steps(2) infinite}
   @keyframes tw{0%,100%{opacity:.25}50%{opacity:1}}
   .hoy{animation:hoy 1s steps(1) infinite}
-  @keyframes hoy{0%{fill:#FFEFF7}50%{fill:#FF4FB3}}
+  @keyframes hoy{0%{fill:HOY}50%{fill:FUCSIA}}
   @media (prefers-reduced-motion:reduce){.tw,.hoy{animation:none}}
-</style>""")
-    out.append(f'<rect width="{W}" height="{H}" fill="{C["void"]}"/>')
+</style>""".replace("HOY", C["hoy"]).replace("FUCSIA", C["fucsia"]))
+    out.append(f'<rect width="{W}" height="{H}" rx="18" fill="{C["void"]}"/>')
 
     # estrellas pixel
     for _ in range(46):
@@ -244,6 +288,15 @@ def render_planet(login, total, days, N=44, P=10):
 
     out.append(ring(ring_back, C["lila"], .45))
 
+    # contorno (solo en el tema claro, para que el borde iluminado no se pierda)
+    if C.get("outline"):
+        for gy in range(-1, N + 1):
+            for gx in range(-1, N + 1):
+                u, v = (gx + .5) / (N / 2) - 1, (gy + .5) / (N / 2) - 1
+                if 1 < math.hypot(u, v) <= 1 + 1.1 / (N / 2):
+                    out.append(f'<rect x="{x0 + gx * P:.0f}" y="{y0 + gy * P:.0f}" width="{P}" height="{P}" '
+                               f'fill="{C["outline"]}"/>')
+
     # el planeta, pixel por pixel
     today_px = []
     for gy in range(N):
@@ -261,7 +314,7 @@ def render_planet(login, total, days, N=44, P=10):
             lvl = 0 if day is None else day["level"]
             rim = math.hypot(u, v) > 1 - 1.6 / (N / 2) and b > .42
             if lvl == 0:
-                col = "#5A4A86" if rim else OCEAN[min(4, int(b * 4.2 + thr))]
+                col = C["rim"] if rim else OCEAN[min(4, int(b * 4.2 + thr))]
             else:
                 col = LEVEL[lvl] if b + (thr - .5) * .3 > .22 else LEVEL_DARK[lvl]
             tip = "" if day is None else f'<title>{day["date"]}: {day["count"]} contribuciones</title>'
@@ -320,7 +373,21 @@ def pack(radii, gap=7):
     return placed
 
 
+FILL_KEYS = ["rosa", "naranja", "lila", "fucsia", "violeta", "ambar", "magenta", "crema"]
+
+
+def ink_for(hexcol):
+    r, g, b = (int(hexcol[i:i + 2], 16) for i in (1, 3, 5))
+    return "#170C1F" if (.299 * r + .587 * g + .114 * b) > 140 else "#FFF7FB"
+
+
+def language_colors(langs):
+    ranked = sorted(langs, key=lambda k: -(langs[k]["public"] + langs[k]["private"]))
+    return {name: C[FILL_KEYS[i % len(FILL_KEYS)]] for i, name in enumerate(ranked)}
+
+
 def render_languages(langs, repos):
+    colors = language_colors(langs)
     exclude = {s.strip().lower() for s in os.environ.get("EXCLUDE_LANGS", "").split(",") if s.strip()}
     max_n = int(os.environ.get("MAX_LANGS", "10"))
     items = [(k, v["public"] + v["private"], v["private"]) for k, v in langs.items() if k.lower() not in exclude]
@@ -332,7 +399,6 @@ def render_languages(langs, repos):
     total = sum(i[1] for i in items) or 1
 
     W, H = 900, 400
-    fills = [C["rosa"], C["magenta"], C["lila"], C["fucsia"], C["crema"]]
     circles = pack([math.sqrt(i[1] / total) * 100 for i in items])
 
     # escalar al lienzo
@@ -348,21 +414,21 @@ def render_languages(langs, repos):
     out.append(f'<rect width="{W}" height="{H}" rx="18" fill="{C["void"]}"/>')
     out.append(f'<g font-family="{SANS}">')
     out.append(f'<text x="40" y="44" font-size="20" font-weight="700" fill="{C["crema"]}">lenguajes</text>')
-    out.append(f'<text x="140" y="44" font-size="14" fill="{C["lila"]}">en {repos["public"]} repos públicos '
-               f'y {repos["private"]} privados</text>')
+    out.append(f'<text x="140" y="44" font-size="14" fill="{C["lila"]}">en {plural(repos["public"], "repo público", "repos públicos")} '
+               f'y {plural(repos["private"], "privado", "privados")}</text>')
     out.append(f'<text x="{W - 40}" y="44" font-size="12" text-anchor="end" fill="{C["crema"]}" opacity=".5">'
                f'borde punteado = sobre todo privado</text>')
 
     for idx, ((name, size, priv), (x, y, r)) in enumerate(zip(items, circles)):
         X, Y, Rr = ox + x * k, oy + y * k, r * k
-        fill = fills[idx % len(fills)]
+        fill = colors.get(name, C["lila"])
         pct = 100 * size / total
         mostly_private = priv / size > .5
         out.append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="{Rr:.1f}" fill="{fill}"/>')
         if mostly_private:
             out.append(f'<circle cx="{X:.1f}" cy="{Y:.1f}" r="{Rr + 4:.1f}" fill="none" stroke="{fill}" '
                        f'stroke-width="1.3" stroke-dasharray="3 4"/>')
-        ink = C["void"]
+        ink = ink_for(fill)
         fs = max(10, min(24, Rr / 3.6))
         label = name if Rr > len(name) * fs * .32 else name[:3]
         if Rr > 26:
@@ -373,6 +439,138 @@ def render_languages(langs, repos):
         elif Rr > 16:
             out.append(f'<text x="{X:.1f}" y="{Y + 4:.1f}" font-size="10" font-weight="700" '
                        f'text-anchor="middle" fill="{ink}"><title>{name} {pct:.1f}%</title>{label}</text>')
+    out.append("</g></svg>")
+    return "\n".join(out)
+
+
+# ───────────────────────────── neuronas ─────────────────────────────
+
+def plural(n, one, many):
+    return f"{n} {one if n == 1 else many}"
+
+
+def render_neurons(langs, repos):
+    """Dos neuronas: repos públicos a la izquierda, privados a la derecha.
+    Cada dendrita es un repo, su color es el lenguaje principal y cada punta son ~commits."""
+    W, H = 900, 470
+    colors = language_colors(langs)
+    rnd = random.Random(11)
+    lst = repos.get("list", [])
+    total_commits = sum(max(1, r["commits"]) for r in lst) or 1
+    scale = min(1.0, 520 / total_commits)
+
+    paths, dots = [], []
+    group_key = [False]
+
+    def grow(x, y, ang, length, leaves, depth, col, width):
+        bend = rnd.uniform(-.45, .45)
+        ex, ey = x + length * math.cos(ang), y + length * math.sin(ang)
+        qx = x + length * .5 * math.cos(ang + bend)
+        qy = y + length * .5 * math.sin(ang + bend)
+        paths.append((group_key[0], (x, y, qx, qy, ex, ey), col, width, depth))
+        if leaves <= 1 or depth > 9:
+            dots.append((group_key[0], ex, ey, col, rnd.uniform(1.6, 3.2)))
+            return
+        k = 2 if leaves < 6 or rnd.random() < .6 else 3
+        cuts = sorted(rnd.sample(range(1, leaves), min(k - 1, leaves - 1)))
+        parts = [b - a for a, b in zip([0] + cuts, cuts + [leaves])]
+        spread = rnd.uniform(.35, .75)
+        for i, n in enumerate(parts):
+            off = (i - (len(parts) - 1) / 2) * spread / max(1, len(parts) - 1) * 2
+            grow(ex, ey, ang + off + rnd.uniform(-.12, .12), length * rnd.uniform(.68, .86),
+                 n, depth + 1, col, max(.5, width * .72))
+
+    somas = {False: (250, 240), True: (660, 240)}
+    for private in (False, True):
+        group = [r for r in lst if r["private"] == private]
+        if not group:
+            continue
+        sx, sy = somas[private]
+        group_key[0] = private
+        weights = [math.sqrt(max(1, r["commits"])) for r in group]
+        tw = sum(weights)
+        # los públicos se abren hacia la izquierda, los privados hacia la derecha
+        base = math.pi if not private else 0.0
+        arc = math.radians(300)
+        a = base - arc / 2
+        splits = max(1, math.ceil(8 / len(group)))  # con pocos repos, cada uno se abre en varias ramas
+        for r, wgt in sorted(zip(group, weights), key=lambda t: rnd.random()):
+            leaves = min(70, max(2, round(max(1, r["commits"]) * scale)))
+            col = colors.get(r["lang"], C["lila"])
+            for part in range(splits):
+                share = arc * wgt / tw / splits
+                ang = a + share / 2
+                a += share
+                n = max(2, leaves // splits)
+                grow(sx + 10 * math.cos(ang), sy + 10 * math.sin(ang), ang,
+                     rnd.uniform(34, 52) + math.log1p(n) * 6, n, 0, col, 2.4)
+
+    fit = {}
+    for private, (sx, sy) in somas.items():
+        pts = [(p[1][4], p[1][5]) for p in paths if p[0] == private] + \
+              [(p[1][2], p[1][3]) for p in paths if p[0] == private]
+        if pts:
+            mdx = max(abs(x - sx) for x, _ in pts) or 1
+            mdy = max(abs(y - sy) for _, y in pts) or 1
+            fit[private] = min(1.6, 195 / mdx, 165 / mdy)
+
+    def T(private, x, y):
+        sx, sy = somas[private]
+        k = fit[private]
+        return sx + (x - sx) * k, sy + (y - sy) * k
+
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
+           f'role="img" aria-label="Neuronas de repos públicos y privados">']
+    out.append("""<style>
+  .d{stroke-dasharray:1;stroke-dashoffset:1;animation:grow 2.6s cubic-bezier(.2,.7,.2,1) forwards}
+  .p{opacity:0;animation:pop .6s ease-out forwards}
+  @keyframes grow{to{stroke-dashoffset:0}}
+  @keyframes pop{to{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.d{animation:none;stroke-dashoffset:0}.p{animation:none;opacity:1}}
+</style>""")
+    out.append(f"""<defs>
+  <radialGradient id="soma" cx="38%" cy="35%" r="70%">
+    <stop offset="0" stop-color="#3A1C6E"/><stop offset=".7" stop-color="{C['indigo']}"/>
+    <stop offset="1" stop-color="#0B0616"/></radialGradient>
+  <filter id="halo" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>""")
+    out.append(f'<rect width="{W}" height="{H}" rx="18" fill="{C["void"]}"/>')
+    # axón entre las dos neuronas
+    if any(not r["private"] for r in lst) and any(r["private"] for r in lst):
+        for i in range(7):
+            o = (i - 3) * 2.2
+            col = [C["violeta"], C["naranja"], C["rosa"]][i % 3]
+            out.append(f'<path class="d" pathLength="1" d="M250 {240 + o}C390 {195 + o * 3} 520 {285 - o * 3} 660 {240 - o}" '
+                       f'fill="none" stroke="{col}" stroke-width=".9" opacity=".55"/>')
+    out.append('<g fill="none" stroke-linecap="round">')
+    for private, (x, y, qx, qy, ex, ey), col, wdt, depth in paths:
+        x, y = T(private, x, y); qx, qy = T(private, qx, qy); ex, ey = T(private, ex, ey)
+        d = f"M{x:.1f} {y:.1f}Q{qx:.1f} {qy:.1f} {ex:.1f} {ey:.1f}"
+        delay = depth * .16
+        out.append(f'<path class="d" pathLength="1" style="animation-delay:{delay:.2f}s" d="{d}" '
+                   f'stroke="{col}" stroke-width="{wdt:.2f}" opacity="{max(.35, .85 - depth * .05):.2f}"/>')
+    out.append("</g>")
+    for private, x, y, col, r in dots:
+        x, y = T(private, x, y)
+        out.append(f'<circle class="p" style="animation-delay:{1.6 + rnd.uniform(0, .9):.2f}s" '
+                   f'cx="{x:.1f}" cy="{y:.1f}" r="{r:.1f}" fill="{col}"/>')
+    for private, (sx, sy) in somas.items():
+        if any(r["private"] == private for r in lst):
+            out.append(f'<circle cx="{sx}" cy="{sy}" r="24" fill="{C["violeta"]}" opacity=".55" filter="url(#halo)"/>'
+                       f'<circle cx="{sx}" cy="{sy}" r="17" fill="url(#soma)" stroke="{C["violeta"]}" stroke-width="2"/>'
+                       f'<circle cx="{sx - 5}" cy="{sy - 6}" r="3" fill="{C["ambar"]}" opacity=".9"/>')
+
+    pub = [r for r in lst if not r["private"]]
+    prv = [r for r in lst if r["private"]]
+    out.append(f'<g font-family="{SANS}" fill="{C["crema"]}">')
+    out.append(f'<text x="40" y="44" font-size="20" font-weight="700">repos</text>')
+    out.append(f'<text x="40" y="{H - 30}" font-size="13" fill="{C["lila"]}">públicos: {plural(len(pub), "repo", "repos")}, '
+               f'{plural(sum(r["commits"] for r in pub), "commit", "commits")}</text>')
+    out.append(f'<text x="{W - 40}" y="{H - 30}" font-size="13" text-anchor="end" fill="{C["rosa"]}">'
+               f'privados: {plural(len(prv), "repo", "repos")}, '
+               f'{plural(sum(r["commits"] for r in prv), "commit", "commits")}</text>')
+    out.append(f'<text x="{W - 40}" y="44" font-size="12" text-anchor="end" opacity=".5">'
+               f'cada rama es un repo, el color es su lenguaje</text>')
     out.append("</g></svg>")
     return "\n".join(out)
 
@@ -423,8 +621,11 @@ def main():
         login, total, days = fetch_days()
         langs, repos = fetch_languages()
     ASSETS.mkdir(exist_ok=True)
-    (ASSETS / "planet.svg").write_text(render_planet(login, total, days), encoding="utf-8")
-    (ASSETS / "languages.svg").write_text(render_languages(langs, repos), encoding="utf-8")
+    for theme in THEMES:   # planet-dark.svg, planet-light.svg, etc.
+        apply_theme(theme)
+        (ASSETS / f"planet-{theme}.svg").write_text(render_planet(login, total, days), encoding="utf-8")
+        (ASSETS / f"neurons-{theme}.svg").write_text(render_neurons(langs, repos), encoding="utf-8")
+        (ASSETS / f"languages-{theme}.svg").write_text(render_languages(langs, repos), encoding="utf-8")
     inject_readme(render_ascii(days), total)
     print(f"listo: {total} contribuciones, {len(langs)} lenguajes")
 
