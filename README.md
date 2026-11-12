@@ -4,14 +4,8 @@
 
 <img src="./assets/languages.svg" alt="Lenguajes usados en repos públicos y privados" width="100%"/>
 
-<details>
-<summary>versión ascii del planeta ✦</summary>
 
-<!-- PLANET:START -->
-```text
-```
-<!-- PLANET:END -->
 
-</details>
+
 
 </div>
