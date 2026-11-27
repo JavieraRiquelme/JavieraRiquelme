@@ -21,284 +21,284 @@
 <path class="d" pathLength="1" d="M250 244.4C390 208.2 520 271.8 660 235.6" fill="none" stroke="#FE94C1" stroke-width=".9" opacity=".55"/>
 <path class="d" pathLength="1" d="M250 246.6C390 214.8 520 265.2 660 233.4" fill="none" stroke="#8B4DFF" stroke-width=".9" opacity=".55"/>
 <g fill="none" stroke-linecap="round">
-<path class="d" pathLength="1" style="animation-delay:0.00s" d="M253.2 245.3Q268.4 259.2 274.6 280.4" stroke="#B0B1F9" stroke-width="2.40" opacity="0.85"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M274.6 280.4Q283.9 291.3 298.4 296.3" stroke="#B0B1F9" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M298.4 296.3Q309.8 297.0 321.2 295.3" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M298.4 296.3Q309.5 297.2 318.2 306.4" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M318.2 306.4Q326.4 306.7 334.5 305.6" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M334.5 305.6Q340.3 303.0 345.1 298.7" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M334.5 305.6Q338.9 311.1 347.2 311.8" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M347.2 311.8Q351.8 309.7 357.1 309.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M347.2 311.8Q347.8 317.0 351.5 321.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M351.5 321.4Q355.4 323.1 358.2 326.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M351.5 321.4Q351.4 325.4 352.7 329.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M318.2 306.4Q320.8 313.9 325.7 320.4" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M325.7 320.4Q330.0 325.6 336.4 328.6" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M336.4 328.6Q340.9 329.9 345.3 331.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M336.4 328.6Q338.6 333.0 340.8 337.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M340.8 337.3Q342.8 340.3 347.0 341.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M340.8 337.3Q339.9 341.3 339.7 345.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M325.7 320.4Q324.4 325.9 328.2 331.5" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M328.2 331.5Q332.0 333.3 333.6 338.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M328.2 331.5Q328.9 335.6 326.3 339.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M298.4 296.3Q301.5 305.6 302.4 315.4" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M302.4 315.4Q308.8 320.4 311.4 328.9" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M302.4 315.4Q302.6 322.6 299.2 329.5" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M274.6 280.4Q274.5 295.0 277.7 309.4" stroke="#B0B1F9" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M277.7 309.4Q286.0 317.3 293.2 326.3" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M293.2 326.3Q302.5 327.4 311.5 330.2" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M311.5 330.2Q316.6 325.6 323.8 324.4" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M311.5 330.2Q316.0 335.3 321.0 339.8" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M293.2 326.3Q291.4 334.5 295.9 342.8" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M295.9 342.8Q300.9 346.3 302.4 353.1" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M295.9 342.8Q296.9 349.9 292.7 356.8" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M292.7 356.8Q295.0 362.1 298.1 367.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M298.1 367.1Q302.3 367.9 306.1 370.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M298.1 367.1Q298.6 371.0 296.0 374.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M296.0 374.8Q297.1 377.7 299.5 380.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.28s" d="M299.5 380.0Q301.4 381.2 303.7 381.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
-<path class="d" pathLength="1" style="animation-delay:1.28s" d="M299.5 380.0Q298.5 382.1 298.7 384.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
-<path class="d" pathLength="1" style="animation-delay:1.44s" d="M298.7 384.6Q299.2 386.3 300.0 387.9" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
-<path class="d" pathLength="1" style="animation-delay:1.44s" d="M298.7 384.6Q297.0 385.5 296.4 387.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M296.0 374.8Q293.1 375.6 290.7 377.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.28s" d="M290.7 377.7Q289.5 379.7 288.3 381.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
-<path class="d" pathLength="1" style="animation-delay:1.44s" d="M288.3 381.7Q288.5 383.5 288.6 385.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
-<path class="d" pathLength="1" style="animation-delay:1.44s" d="M288.3 381.7Q287.2 382.9 285.2 382.9" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
-<path class="d" pathLength="1" style="animation-delay:1.60s" d="M285.2 382.9Q284.6 384.2 283.7 385.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.35"/>
-<path class="d" pathLength="1" style="animation-delay:1.60s" d="M285.2 382.9Q284.0 382.8 282.8 382.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.35"/>
-<path class="d" pathLength="1" style="animation-delay:1.28s" d="M290.7 377.7Q288.4 377.0 285.8 377.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
-<path class="d" pathLength="1" style="animation-delay:1.44s" d="M285.8 377.4Q284.5 378.8 282.7 379.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
-<path class="d" pathLength="1" style="animation-delay:1.44s" d="M285.8 377.4Q284.8 375.6 282.8 374.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
-<path class="d" pathLength="1" style="animation-delay:1.60s" d="M282.8 374.5Q281.4 374.6 279.9 374.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.35"/>
-<path class="d" pathLength="1" style="animation-delay:1.60s" d="M282.8 374.5Q282.8 373.0 282.4 371.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.35"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M292.7 356.8Q286.9 358.1 283.2 364.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M283.2 364.0Q280.7 367.6 278.9 371.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M278.9 371.6Q280.7 374.7 279.6 378.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M278.9 371.6Q276.0 372.1 273.6 374.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M283.2 364.0Q279.2 364.6 275.3 366.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M275.3 366.1Q272.9 368.4 270.1 370.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M275.3 366.1Q271.9 366.6 268.5 365.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M277.7 309.4Q274.7 320.3 263.4 326.9" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.00s" d="M247.3 245.6Q237.1 264.7 228.3 284.5" stroke="#B0B1F9" stroke-width="2.40" opacity="0.85"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M228.3 284.5Q234.7 301.6 227.8 320.9" stroke="#B0B1F9" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M227.8 320.9Q240.9 328.8 244.7 346.4" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M244.7 346.4Q253.2 353.3 264.1 356.6" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M264.1 356.6Q272.0 361.7 282.7 359.4" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M264.1 356.6Q265.8 364.5 273.0 370.2" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M244.7 346.4Q246.2 356.9 246.6 367.6" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M227.8 320.9Q232.5 334.1 225.5 348.8" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M225.5 348.8Q229.6 358.9 236.9 367.3" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M225.5 348.8Q215.7 355.8 212.0 368.8" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M212.0 368.8Q217.0 377.7 214.8 389.1" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M214.8 389.1Q219.5 396.1 225.0 402.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M214.8 389.1Q213.3 397.6 208.2 405.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M212.0 368.8Q202.0 369.2 192.1 371.5" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M227.8 320.9Q224.2 334.6 215.2 346.3" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M215.2 346.3Q213.7 357.2 214.3 368.2" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M214.3 368.2Q219.5 375.8 225.3 383.0" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M214.3 368.2Q212.7 375.6 206.9 381.5" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M215.2 346.3Q204.2 351.2 196.7 361.6" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M196.7 361.6Q193.7 369.5 189.8 377.0" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M196.7 361.6Q187.9 364.3 178.5 364.1" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M228.3 284.5Q225.6 302.6 211.4 316.9" stroke="#B0B1F9" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M211.4 316.9Q213.9 331.4 211.7 346.3" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M211.4 316.9Q203.0 326.5 198.9 339.2" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M211.4 316.9Q203.5 327.6 190.4 333.2" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M190.4 333.2Q183.4 341.7 178.3 351.5" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M178.3 351.5Q178.3 359.4 179.0 367.3" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M179.0 367.3Q179.5 373.8 184.5 379.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M184.5 379.2Q187.4 382.8 192.0 384.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M192.0 384.7Q195.3 384.9 198.6 383.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M192.0 384.7Q193.4 388.3 194.4 392.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M184.5 379.2Q183.3 383.9 183.8 389.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M179.0 367.3Q174.9 372.2 175.0 379.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M175.0 379.3Q175.0 384.2 176.6 389.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M175.0 379.3Q175.8 383.7 173.0 388.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M173.0 388.0Q172.9 391.2 174.7 394.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.28s" d="M174.7 394.1Q176.0 395.8 178.5 396.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
-<path class="d" pathLength="1" style="animation-delay:1.44s" d="M178.5 396.2Q180.2 396.1 181.8 396.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
-<path class="d" pathLength="1" style="animation-delay:1.44s" d="M178.5 396.2Q179.5 397.5 180.8 398.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
-<path class="d" pathLength="1" style="animation-delay:1.28s" d="M174.7 394.1Q174.1 396.4 172.9 398.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
-<path class="d" pathLength="1" style="animation-delay:1.44s" d="M172.9 398.6Q173.2 400.2 173.5 401.9" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
-<path class="d" pathLength="1" style="animation-delay:1.44s" d="M172.9 398.6Q171.0 399.3 169.6 400.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M173.0 388.0Q170.7 390.4 168.9 393.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M175.0 379.3Q171.3 383.1 166.2 385.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M166.2 385.1Q164.8 389.2 162.7 393.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M166.2 385.1Q162.3 383.4 157.9 383.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M178.3 351.5Q172.3 358.1 162.2 359.2" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M162.2 359.2Q155.9 363.2 154.3 371.9" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M154.3 371.9Q153.8 377.8 151.6 383.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M154.3 371.9Q149.6 375.4 144.4 378.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M162.2 359.2Q155.3 357.1 147.9 358.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M190.4 333.2Q180.1 335.2 171.2 341.6" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M171.2 341.6Q169.3 349.8 160.8 354.7" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M160.8 354.7Q158.8 360.9 156.8 367.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M156.8 367.1Q157.4 371.6 158.8 376.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M156.8 367.1Q154.1 372.0 148.8 374.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M160.8 354.7Q155.0 357.4 149.8 361.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M149.8 361.3Q147.8 365.6 145.1 369.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M149.8 361.3Q144.9 362.3 139.9 361.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M171.2 341.6Q162.9 343.7 154.4 338.6" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M154.4 338.6Q148.1 339.9 142.4 343.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M154.4 338.6Q149.8 334.0 144.7 330.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M228.3 284.5Q217.3 298.4 200.1 306.1" stroke="#B0B1F9" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M200.1 306.1Q198.0 318.2 187.7 327.3" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M200.1 306.1Q188.1 302.3 175.1 308.7" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.00s" d="M244.0 241.7Q228.3 254.3 205.1 252.5" stroke="#FF8A3D" stroke-width="2.40" opacity="0.85"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M205.1 252.5Q198.7 266.8 183.5 275.3" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M183.5 275.3Q178.0 286.3 175.4 298.6" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M175.4 298.6Q179.7 307.9 177.5 318.9" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M175.4 298.6Q169.0 305.6 162.6 312.6" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M183.5 275.3Q172.8 282.7 159.5 285.5" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M159.5 285.5Q155.9 294.1 148.6 300.6" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M159.5 285.5Q148.7 286.8 138.6 279.0" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M205.1 252.5Q190.1 249.3 174.7 249.4" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M174.7 249.4Q164.0 256.7 150.0 256.9" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M150.0 256.9Q143.9 264.2 137.7 271.6" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M137.7 271.6Q135.2 279.1 137.5 287.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M137.7 271.6Q130.3 274.0 122.5 274.9" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M122.5 274.9Q118.0 279.9 112.1 283.3" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M112.1 283.3Q109.1 286.9 108.9 292.1" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M112.1 283.3Q107.0 284.7 101.9 285.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M122.5 274.9Q116.2 275.9 110.0 272.0" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M110.0 272.0Q105.4 274.3 100.8 276.5" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M110.0 272.0Q105.8 268.7 103.4 263.5" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M103.4 263.5Q99.4 261.9 95.2 260.8" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M103.4 263.5Q102.9 259.0 102.9 254.5" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M150.0 256.9Q140.5 255.8 131.3 253.1" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M131.3 253.1Q124.8 252.7 118.4 254.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M131.3 253.1Q124.7 249.1 119.0 243.6" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M119.0 243.6Q113.0 244.4 107.1 241.6" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M119.0 243.6Q115.5 239.3 116.2 232.7" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M174.7 249.4Q168.2 239.3 154.6 236.3" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M154.6 236.3Q145.5 238.2 136.0 237.3" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M154.6 236.3Q145.8 235.8 139.0 228.2" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M139.0 228.2Q132.8 225.8 125.9 225.9" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M139.0 228.2Q135.1 222.9 131.6 217.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M131.6 217.4Q127.3 214.5 122.9 211.6" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M131.6 217.4Q133.2 212.4 130.9 206.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M154.6 236.3Q154.5 226.8 148.3 218.2" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M148.3 218.2Q142.5 212.5 135.3 208.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M135.3 208.4Q129.2 208.3 123.0 207.4" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M135.3 208.4Q133.0 201.8 132.1 194.8" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M148.3 218.2Q149.0 211.0 152.3 204.3" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.00s" d="M244.3 237.5Q228.2 233.4 214.0 224.0" stroke="#FF8A3D" stroke-width="2.40" opacity="0.85"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M214.0 224.0Q203.3 228.0 192.2 231.2" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M192.2 231.2Q191.1 239.1 185.6 245.8" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M185.6 245.8Q186.4 251.9 187.2 258.0" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M185.6 245.8Q179.6 246.4 174.8 251.2" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M174.8 251.2Q171.0 254.0 169.4 258.9" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M169.4 258.9Q169.2 262.4 169.3 265.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M169.4 258.9Q166.7 261.0 162.8 260.6" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M174.8 251.2Q170.4 250.2 165.9 249.3" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M192.2 231.2Q183.5 226.6 173.7 224.6" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M214.0 224.0Q205.6 214.5 199.5 203.2" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M199.5 203.2Q190.5 202.1 182.2 198.1" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M182.2 198.1Q175.1 198.4 168.0 198.9" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M168.0 198.9Q163.2 199.5 159.1 202.7" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M168.0 198.9Q163.2 197.9 159.0 194.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M159.0 194.8Q155.4 196.4 151.1 195.1" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M151.1 195.1Q148.4 196.0 146.0 197.7" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M146.0 197.7Q145.2 199.8 143.2 201.1" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M146.0 197.7Q144.1 198.6 141.8 198.1" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M151.1 195.1Q147.9 194.5 144.9 193.2" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M159.0 194.8Q156.6 192.0 154.4 189.0" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M182.2 198.1Q175.4 195.8 171.9 188.2" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M171.9 188.2Q166.8 189.3 161.5 186.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M171.9 188.2Q172.6 182.2 170.9 176.3" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M199.5 203.2Q196.5 193.6 186.6 187.7" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M186.6 187.7Q178.9 189.0 171.2 184.5" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M171.2 184.5Q165.6 183.1 159.8 186.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M171.2 184.5Q168.0 179.6 162.3 177.1" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M162.3 177.1Q158.6 175.3 154.6 174.4" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M162.3 177.1Q160.0 173.8 158.0 170.3" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M186.6 187.7Q189.2 181.3 185.8 173.9" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M185.8 173.9Q181.9 169.6 178.5 164.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M185.8 173.9Q189.8 169.9 191.1 164.0" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M199.5 203.2Q194.9 194.8 198.4 184.1" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M198.4 184.1Q192.1 179.4 188.3 172.0" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M188.3 172.0Q182.7 170.4 177.4 168.1" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M188.3 172.0Q185.5 166.9 184.7 160.9" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M198.4 184.1Q202.4 178.4 206.1 172.5" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.00s" d="M245.7 235.5Q237.3 224.4 226.7 215.1" stroke="#FE94C1" stroke-width="2.40" opacity="0.85"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M226.7 215.1Q217.0 208.3 203.4 211.2" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M226.7 215.1Q221.5 205.5 225.2 193.4" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.00s" d="M246.3 235.0Q232.3 225.4 225.9 207.9" stroke="#FE94C1" stroke-width="2.40" opacity="0.85"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M225.9 207.9Q217.0 199.1 202.7 198.3" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M225.9 207.9Q230.0 196.7 224.2 184.1" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.00s" d="M248.4 234.0Q243.8 213.4 237.7 193.1" stroke="#FF8A3D" stroke-width="2.40" opacity="0.85"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M237.7 193.1Q225.4 180.3 217.1 164.1" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M217.1 164.1Q206.9 156.3 195.7 149.9" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M217.1 164.1Q209.2 152.7 210.9 137.1" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M210.9 137.1Q200.3 131.8 194.1 120.3" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M194.1 120.3Q184.4 121.1 175.1 116.0" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M194.1 120.3Q188.5 112.9 188.6 102.7" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M210.9 137.1Q212.5 127.5 218.5 119.1" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M218.5 119.1Q217.2 111.9 216.0 104.7" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M218.5 119.1Q224.0 113.0 224.3 103.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M224.3 103.8Q225.6 97.7 221.4 91.6" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M221.4 91.6Q218.8 87.9 213.9 86.8" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M213.9 86.8Q210.3 87.5 206.5 86.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M213.9 86.8Q213.3 83.2 211.1 80.0" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M221.4 91.6Q223.9 87.7 225.9 83.5" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M224.3 103.8Q229.2 100.1 234.2 96.3" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M218.5 119.1Q224.9 114.6 231.0 109.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M237.7 193.1Q235.7 177.4 241.3 161.6" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M241.3 161.6Q231.4 153.0 226.4 140.0" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M226.4 140.0Q215.8 141.9 205.2 136.5" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M226.4 140.0Q220.5 133.3 218.0 124.3" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M218.0 124.3Q212.4 120.5 207.1 116.2" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M207.1 116.2Q202.3 115.7 197.7 113.6" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M207.1 116.2Q203.2 113.1 201.7 107.8" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M218.0 124.3Q215.5 117.3 217.0 109.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M217.0 109.4Q214.6 104.4 212.5 99.2" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M217.0 109.4Q218.1 103.1 222.6 97.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M226.4 140.0Q222.5 129.7 227.2 118.0" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M241.3 161.6Q252.3 157.6 259.0 146.4" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M259.0 146.4Q263.8 138.3 261.7 127.8" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M261.7 127.8Q256.1 122.3 254.8 113.6" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M261.7 127.8Q266.0 121.5 270.3 115.2" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M259.0 146.4Q268.6 145.4 278.2 144.0" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.00s" d="M253.2 245.3Q268.4 259.1 274.7 280.3" stroke="#B0B1F9" stroke-width="2.40" opacity="0.85"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M274.7 280.3Q283.9 291.2 298.4 296.2" stroke="#B0B1F9" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M298.4 296.2Q309.8 296.8 321.2 295.2" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M298.4 296.2Q309.5 297.0 318.2 306.2" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M318.2 306.2Q326.4 306.5 334.5 305.4" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M334.5 305.4Q340.3 302.7 345.1 298.5" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M334.5 305.4Q338.9 310.9 347.2 311.5" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M347.2 311.5Q351.8 309.5 357.1 309.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M347.2 311.5Q347.8 316.8 351.5 321.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M351.5 321.2Q355.4 322.8 358.3 326.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M351.5 321.2Q351.4 325.1 352.7 329.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M318.2 306.2Q320.8 313.7 325.7 320.2" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M325.7 320.2Q330.0 325.4 336.5 328.4" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M336.5 328.4Q340.9 329.6 345.3 331.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M336.5 328.4Q338.6 332.7 340.9 337.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M340.9 337.0Q342.8 340.0 347.0 340.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M340.9 337.0Q340.0 341.0 339.8 345.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M325.7 320.2Q324.5 325.7 328.2 331.2" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M328.2 331.2Q332.1 333.1 333.6 337.9" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M328.2 331.2Q328.9 335.4 326.4 339.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M298.4 296.2Q301.6 305.4 302.5 315.3" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M302.5 315.3Q308.9 320.2 311.5 328.7" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M302.5 315.3Q302.6 322.4 299.3 329.3" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M274.7 280.3Q274.5 294.9 277.8 309.2" stroke="#B0B1F9" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M277.8 309.2Q286.1 317.1 293.3 326.1" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M293.3 326.1Q302.6 327.2 311.5 330.0" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M311.5 330.0Q316.6 325.4 323.9 324.1" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M311.5 330.0Q316.0 335.0 321.0 339.6" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M293.3 326.1Q291.5 334.3 296.0 342.6" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M296.0 342.6Q301.0 346.1 302.5 352.9" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M296.0 342.6Q297.1 349.7 292.9 356.6" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M292.9 356.6Q295.1 361.9 298.2 366.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M298.2 366.8Q302.4 367.6 306.2 369.9" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M298.2 366.8Q298.7 370.8 296.2 374.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M296.2 374.5Q297.3 377.4 299.6 379.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.28s" d="M299.6 379.7Q301.6 381.0 303.9 381.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
+<path class="d" pathLength="1" style="animation-delay:1.28s" d="M299.6 379.7Q298.6 381.8 298.8 384.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
+<path class="d" pathLength="1" style="animation-delay:1.44s" d="M298.8 384.3Q299.4 386.0 300.2 387.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
+<path class="d" pathLength="1" style="animation-delay:1.44s" d="M298.8 384.3Q297.2 385.2 296.6 387.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M296.2 374.5Q293.3 375.4 290.9 377.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.28s" d="M290.9 377.4Q289.7 379.4 288.5 381.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
+<path class="d" pathLength="1" style="animation-delay:1.44s" d="M288.5 381.4Q288.7 383.3 288.8 385.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
+<path class="d" pathLength="1" style="animation-delay:1.44s" d="M288.5 381.4Q287.4 382.7 285.4 382.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
+<path class="d" pathLength="1" style="animation-delay:1.60s" d="M285.4 382.7Q284.8 383.9 283.9 385.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.35"/>
+<path class="d" pathLength="1" style="animation-delay:1.60s" d="M285.4 382.7Q284.2 382.5 283.0 382.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.35"/>
+<path class="d" pathLength="1" style="animation-delay:1.28s" d="M290.9 377.4Q288.5 376.7 286.0 377.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
+<path class="d" pathLength="1" style="animation-delay:1.44s" d="M286.0 377.1Q284.7 378.6 282.9 379.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
+<path class="d" pathLength="1" style="animation-delay:1.44s" d="M286.0 377.1Q285.0 375.3 283.0 374.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
+<path class="d" pathLength="1" style="animation-delay:1.60s" d="M283.0 374.3Q281.6 374.4 280.1 374.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.35"/>
+<path class="d" pathLength="1" style="animation-delay:1.60s" d="M283.0 374.3Q283.0 372.8 282.6 371.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.35"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M292.9 356.6Q287.1 357.9 283.4 363.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M283.4 363.8Q280.9 367.4 279.1 371.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M279.1 371.4Q280.9 374.4 279.8 378.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M279.1 371.4Q276.1 371.9 273.8 374.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M283.4 363.8Q279.3 364.4 275.5 365.9" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M275.5 365.9Q273.1 368.2 270.3 369.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M275.5 365.9Q272.1 366.5 268.7 365.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M277.8 309.2Q274.8 320.1 263.5 326.7" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.00s" d="M247.3 245.6Q237.3 264.7 228.6 284.5" stroke="#B0B1F9" stroke-width="2.40" opacity="0.85"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M228.6 284.5Q235.0 301.6 228.2 320.9" stroke="#B0B1F9" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M228.2 320.9Q241.3 328.7 245.2 346.3" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M245.2 346.3Q253.8 353.2 264.7 356.4" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M264.7 356.4Q272.6 361.5 283.3 359.0" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M264.7 356.4Q266.4 364.3 273.6 369.9" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M245.2 346.3Q246.8 356.8 247.2 367.5" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M228.2 320.9Q233.0 334.1 226.1 348.8" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M226.1 348.8Q230.2 358.8 237.6 367.2" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M226.1 348.8Q216.3 355.8 212.7 368.8" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M212.7 368.8Q217.7 377.7 215.6 389.0" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M215.6 389.0Q220.3 396.1 225.9 402.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M215.6 389.0Q214.1 397.5 209.0 405.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M212.7 368.8Q202.7 369.2 192.8 371.7" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M228.2 320.9Q224.7 334.7 215.7 346.4" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M215.7 346.4Q214.3 357.2 215.0 368.2" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M215.0 368.2Q220.2 375.8 226.0 383.0" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M215.0 368.2Q213.4 375.6 207.6 381.5" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M215.7 346.4Q204.8 351.3 197.3 361.7" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M197.3 361.7Q194.4 369.6 190.6 377.2" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M197.3 361.7Q188.6 364.5 179.2 364.3" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M228.6 284.5Q226.0 302.6 211.8 317.0" stroke="#B0B1F9" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M211.8 317.0Q214.4 331.5 212.3 346.4" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M211.8 317.0Q203.4 326.7 199.4 339.4" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M211.8 317.0Q203.9 327.7 190.9 333.3" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M190.9 333.3Q184.0 341.9 178.9 351.7" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M178.9 351.7Q179.0 359.6 179.7 367.5" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M179.7 367.5Q180.2 374.0 185.2 379.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M185.2 379.3Q188.2 382.9 192.7 384.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M192.7 384.8Q196.1 385.0 199.4 383.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M192.7 384.8Q194.2 388.4 195.2 392.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M185.2 379.3Q184.1 384.1 184.6 389.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M179.7 367.5Q175.7 372.4 175.7 379.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M175.7 379.5Q175.8 384.4 177.4 389.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M175.7 379.5Q176.6 383.9 173.8 388.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M173.8 388.2Q173.7 391.4 175.5 394.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.28s" d="M175.5 394.3Q176.9 396.0 179.4 396.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
+<path class="d" pathLength="1" style="animation-delay:1.44s" d="M179.4 396.4Q181.0 396.3 182.7 396.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
+<path class="d" pathLength="1" style="animation-delay:1.44s" d="M179.4 396.4Q180.4 397.7 181.7 398.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
+<path class="d" pathLength="1" style="animation-delay:1.28s" d="M175.5 394.3Q174.9 396.6 173.7 398.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.45"/>
+<path class="d" pathLength="1" style="animation-delay:1.44s" d="M173.7 398.7Q174.1 400.4 174.4 402.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
+<path class="d" pathLength="1" style="animation-delay:1.44s" d="M173.7 398.7Q171.9 399.5 170.4 400.9" stroke="#B0B1F9" stroke-width="0.50" opacity="0.40"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M173.8 388.2Q171.6 390.6 169.8 393.5" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M175.7 379.5Q172.1 383.3 167.0 385.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M167.0 385.3Q165.6 389.4 163.6 393.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M167.0 385.3Q163.1 383.7 158.7 384.0" stroke="#B0B1F9" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M178.9 351.7Q172.9 358.3 162.9 359.5" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M162.9 359.5Q156.6 363.5 155.0 372.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M155.0 372.2Q154.6 378.1 152.4 383.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M155.0 372.2Q150.4 375.7 145.2 378.3" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M162.9 359.5Q156.0 357.4 148.6 358.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M190.9 333.3Q180.7 335.5 171.8 341.9" stroke="#B0B1F9" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M171.8 341.9Q169.9 350.0 161.5 355.0" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M161.5 355.0Q159.5 361.2 157.5 367.4" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M157.5 367.4Q158.2 371.9 159.5 376.2" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M157.5 367.4Q154.9 372.3 149.6 375.1" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M161.5 355.0Q155.7 357.8 150.5 361.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M150.5 361.6Q148.6 365.9 145.9 369.8" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M150.5 361.6Q145.7 362.7 140.6 361.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M171.8 341.9Q163.5 344.0 155.0 339.0" stroke="#B0B1F9" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M155.0 339.0Q148.7 340.3 143.0 343.7" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M155.0 339.0Q150.4 334.4 145.2 330.6" stroke="#B0B1F9" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M228.6 284.5Q217.6 298.5 200.4 306.3" stroke="#B0B1F9" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M200.4 306.3Q198.5 318.4 188.2 327.5" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M200.4 306.3Q188.5 302.5 175.5 309.0" stroke="#B0B1F9" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.00s" d="M244.0 241.7Q228.3 254.4 205.2 252.7" stroke="#FF8A3D" stroke-width="2.40" opacity="0.85"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M205.2 252.7Q198.8 267.0 183.7 275.4" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M183.7 275.4Q178.3 286.5 175.7 298.8" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M175.7 298.8Q180.0 308.0 177.9 319.0" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M175.7 298.8Q169.3 305.8 163.0 312.8" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M183.7 275.4Q173.0 282.9 159.8 285.7" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M159.8 285.7Q156.2 294.3 149.0 300.9" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M159.8 285.7Q148.9 287.0 138.9 279.4" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M205.2 252.7Q190.2 249.5 174.8 249.6" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M174.8 249.6Q164.2 256.9 150.1 257.2" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M150.1 257.2Q144.1 264.6 137.9 271.9" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M137.9 271.9Q135.5 279.4 137.8 287.7" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M137.9 271.9Q130.5 274.3 122.7 275.3" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M122.7 275.3Q118.3 280.3 112.4 283.7" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M112.4 283.7Q109.5 287.3 109.3 292.5" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M112.4 283.7Q107.3 285.1 102.3 286.4" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M122.7 275.3Q116.4 276.3 110.3 272.4" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M110.3 272.4Q105.7 274.7 101.1 277.0" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M110.3 272.4Q106.1 269.2 103.7 264.0" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M103.7 264.0Q99.7 262.4 95.5 261.3" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M103.7 264.0Q103.1 259.5 103.1 255.0" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M150.1 257.2Q140.7 256.2 131.5 253.5" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M131.5 253.5Q125.0 253.1 118.6 254.9" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M131.5 253.5Q124.8 249.5 119.2 244.1" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M119.2 244.1Q113.2 244.8 107.3 242.1" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M119.2 244.1Q115.6 239.7 116.3 233.2" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M174.8 249.6Q168.3 239.6 154.7 236.7" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M154.7 236.7Q145.6 238.6 136.1 237.7" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M154.7 236.7Q145.9 236.2 139.1 228.6" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M139.1 228.6Q132.9 226.2 126.0 226.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M139.1 228.6Q135.2 223.3 131.7 217.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M131.7 217.8Q127.3 215.0 123.0 212.0" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M131.7 217.8Q133.2 212.8 131.0 207.3" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M154.7 236.7Q154.5 227.1 148.4 218.6" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M148.4 218.6Q142.5 212.9 135.4 208.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M135.4 208.8Q129.2 208.8 123.1 207.8" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M135.4 208.8Q133.0 202.3 132.1 195.2" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M148.4 218.6Q149.0 211.4 152.3 204.7" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.00s" d="M244.3 237.5Q228.3 233.4 214.1 223.9" stroke="#FF8A3D" stroke-width="2.40" opacity="0.85"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M214.1 223.9Q203.3 227.9 192.3 231.0" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M192.3 231.0Q191.2 239.0 185.6 245.6" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M185.6 245.6Q186.4 251.7 187.3 257.8" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M185.6 245.6Q179.6 246.2 174.9 251.0" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M174.9 251.0Q171.1 253.8 169.4 258.7" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M169.4 258.7Q169.3 262.1 169.4 265.6" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M169.4 258.7Q166.8 260.7 162.9 260.4" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M174.9 251.0Q170.5 249.9 166.0 249.1" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M192.3 231.0Q183.6 226.5 173.8 224.4" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M214.1 223.9Q205.7 214.4 199.6 203.1" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M199.6 203.1Q190.7 201.9 182.4 198.0" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M182.4 198.0Q175.3 198.3 168.2 198.8" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M168.2 198.8Q163.4 199.3 159.3 202.5" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M168.2 198.8Q163.4 197.7 159.3 194.6" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M159.3 194.6Q155.6 196.2 151.3 194.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M151.3 194.9Q148.6 195.7 146.3 197.5" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M146.3 197.5Q145.5 199.5 143.5 200.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M146.3 197.5Q144.4 198.4 142.1 197.8" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M151.3 194.9Q148.2 194.3 145.2 192.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M159.3 194.6Q156.9 191.8 154.7 188.8" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M182.4 198.0Q175.7 195.6 172.1 188.0" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M172.1 188.0Q167.0 189.1 161.7 186.6" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M172.1 188.0Q172.8 182.1 171.2 176.1" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M199.6 203.1Q196.7 193.5 186.8 187.6" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M186.8 187.6Q179.1 188.9 171.5 184.3" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M171.5 184.3Q165.9 183.0 160.1 186.2" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M171.5 184.3Q168.3 179.5 162.6 176.9" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M162.6 176.9Q158.9 175.1 154.9 174.2" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M162.6 176.9Q160.4 173.6 158.3 170.2" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M186.8 187.6Q189.4 181.2 186.1 173.8" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M186.1 173.8Q182.2 169.5 178.8 164.7" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M186.1 173.8Q190.1 169.8 191.4 163.9" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M199.6 203.1Q195.1 194.7 198.6 184.0" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M198.6 184.0Q192.3 179.3 188.5 171.9" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M188.5 171.9Q183.0 170.2 177.7 168.0" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M188.5 171.9Q185.8 166.8 185.0 160.9" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M198.6 184.0Q202.7 178.4 206.3 172.5" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.00s" d="M245.8 235.4Q237.4 224.3 226.9 215.0" stroke="#FE94C1" stroke-width="2.40" opacity="0.85"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M226.9 215.0Q217.3 208.2 203.6 211.0" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M226.9 215.0Q221.8 205.4 225.5 193.3" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.00s" d="M246.3 235.0Q232.4 225.4 226.1 207.8" stroke="#FE94C1" stroke-width="2.40" opacity="0.85"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M226.1 207.8Q217.2 198.9 203.0 198.0" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M226.1 207.8Q230.3 196.6 224.5 184.0" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.00s" d="M248.4 234.0Q244.0 213.4 237.9 193.1" stroke="#FF8A3D" stroke-width="2.40" opacity="0.85"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M237.9 193.1Q225.6 180.3 217.5 164.0" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M217.5 164.0Q207.3 156.2 196.1 149.8" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M217.5 164.0Q209.6 152.7 211.4 137.1" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M211.4 137.1Q200.8 131.7 194.7 120.2" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M194.7 120.2Q185.0 121.0 175.7 115.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M194.7 120.2Q189.2 112.8 189.3 102.6" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M211.4 137.1Q213.1 127.5 219.0 119.2" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M219.0 119.2Q217.8 111.9 216.6 104.7" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M219.0 119.2Q224.5 113.1 224.9 103.9" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M224.9 103.9Q226.2 97.7 222.0 91.6" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M222.0 91.6Q219.5 88.0 214.6 86.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M214.6 86.9Q211.0 87.5 207.2 86.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M214.6 86.9Q214.0 83.2 211.8 80.0" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M222.0 91.6Q224.6 87.8 226.6 83.6" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M224.9 103.9Q229.9 100.1 234.8 96.4" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M219.0 119.2Q225.4 114.6 231.6 109.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M237.9 193.1Q236.0 177.4 241.6 161.6" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M241.6 161.6Q231.8 153.0 226.9 140.0" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M226.9 140.0Q216.3 141.9 205.7 136.5" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M226.9 140.0Q221.0 133.3 218.5 124.3" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M218.5 124.3Q212.9 120.5 207.7 116.2" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M207.7 116.2Q202.9 115.7 198.4 113.5" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M207.7 116.2Q203.8 113.1 202.4 107.8" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M218.5 124.3Q216.1 117.3 217.6 109.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M217.6 109.4Q215.2 104.4 213.2 99.3" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M217.6 109.4Q218.8 103.1 223.2 97.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M226.9 140.0Q223.0 129.8 227.8 118.1" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M241.6 161.6Q252.6 157.7 259.4 146.6" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M259.4 146.6Q264.3 138.5 262.2 128.0" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M262.2 128.0Q256.6 122.4 255.3 113.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M262.2 128.0Q266.5 121.7 270.8 115.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M259.4 146.6Q269.0 145.6 278.5 144.2" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
 <path class="d" pathLength="1" style="animation-delay:0.00s" d="M252.5 234.3Q266.5 221.6 267.5 199.5" stroke="#FF8A3D" stroke-width="2.40" opacity="0.85"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M267.5 199.5Q272.8 187.4 266.9 173.1" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M266.9 173.1Q264.9 164.3 261.6 155.9" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M261.6 155.9Q259.3 149.9 252.4 147.1" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M252.4 147.1Q247.4 147.2 242.8 144.5" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M252.4 147.1Q251.2 142.8 250.3 138.6" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M250.3 138.6Q247.9 136.7 247.4 133.2" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M250.3 138.6Q250.9 135.4 251.6 132.2" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M261.6 155.9Q263.7 148.8 264.0 141.2" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M264.0 141.2Q261.9 136.4 260.4 131.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M264.0 141.2Q268.5 138.1 271.5 133.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M266.9 173.1Q272.9 164.7 273.0 153.5" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M267.5 199.5Q276.9 189.7 276.7 173.9" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M276.7 173.9Q272.5 165.2 274.0 154.8" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M276.7 173.9Q284.7 167.3 293.2 161.6" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M267.5 199.5Q280.1 196.0 288.7 183.9" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M288.7 183.9Q288.8 173.5 297.0 164.9" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M297.0 164.9Q297.2 156.3 293.4 148.1" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M293.4 148.1Q290.4 142.9 285.7 138.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M285.7 138.8Q281.3 137.8 277.7 134.6" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M277.7 134.6Q274.2 135.2 270.7 133.5" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:0.96s" d="M277.7 134.6Q274.3 132.9 272.9 128.5" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M272.9 128.5Q270.0 128.8 267.1 127.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:1.28s" d="M267.1 127.9Q264.9 128.7 263.0 130.2" stroke="#FF8A3D" stroke-width="0.50" opacity="0.45"/>
-<path class="d" pathLength="1" style="animation-delay:1.28s" d="M267.1 127.9Q265.3 126.9 264.3 124.7" stroke="#FF8A3D" stroke-width="0.50" opacity="0.45"/>
-<path class="d" pathLength="1" style="animation-delay:1.12s" d="M272.9 128.5Q272.3 125.9 272.9 123.2" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M285.7 138.8Q283.4 134.2 283.6 128.8" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M293.4 148.1Q296.5 141.5 296.7 133.9" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.48s" d="M297.0 164.9Q305.7 164.8 313.2 158.3" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M313.2 158.3Q316.8 152.0 321.7 146.5" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.64s" d="M313.2 158.3Q319.5 157.0 326.1 159.4" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M326.1 159.4Q331.0 158.1 335.1 154.7" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.80s" d="M326.1 159.4Q330.9 161.1 334.4 165.4" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
-<path class="d" pathLength="1" style="animation-delay:0.32s" d="M288.7 183.9Q297.6 179.6 308.5 183.1" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
-<path class="d" pathLength="1" style="animation-delay:0.00s" d="M254.5 235.7Q268.8 224.9 280.7 211.2" stroke="#FE94C1" stroke-width="2.40" opacity="0.85"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M280.7 211.2Q284.9 197.8 285.5 183.5" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M280.7 211.2Q293.0 211.2 304.9 206.1" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.00s" d="M255.1 236.5Q264.1 226.6 277.2 221.3" stroke="#FE94C1" stroke-width="2.40" opacity="0.85"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M277.2 221.3Q279.2 211.5 288.0 204.4" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
-<path class="d" pathLength="1" style="animation-delay:0.16s" d="M277.2 221.3Q287.8 218.4 298.3 215.2" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M267.5 199.5Q272.8 187.5 267.0 173.2" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M267.0 173.2Q265.0 164.4 261.7 156.0" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M261.7 156.0Q259.4 150.1 252.5 147.2" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M252.5 147.2Q247.6 147.3 243.0 144.6" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M252.5 147.2Q251.4 143.0 250.5 138.7" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M250.5 138.7Q248.1 136.8 247.6 133.4" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M250.5 138.7Q251.1 135.5 251.8 132.4" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M261.7 156.0Q263.8 148.9 264.2 141.4" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M264.2 141.4Q262.1 136.6 260.6 131.6" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M264.2 141.4Q268.7 138.3 271.7 133.6" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M267.0 173.2Q273.0 164.8 273.2 153.6" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M267.5 199.5Q277.0 189.9 276.9 174.1" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M276.9 174.1Q272.6 165.4 274.2 154.9" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M276.9 174.1Q284.8 167.5 293.3 161.8" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M267.5 199.5Q280.2 196.1 288.7 184.1" stroke="#FF8A3D" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M288.7 184.1Q288.8 173.7 297.1 165.0" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M297.1 165.0Q297.3 156.5 293.5 148.4" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M293.5 148.4Q290.6 143.1 285.9 139.0" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M285.9 139.0Q281.5 137.9 277.9 134.8" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M277.9 134.8Q274.4 135.4 270.9 133.7" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:0.96s" d="M277.9 134.8Q274.4 133.1 273.1 128.7" stroke="#FF8A3D" stroke-width="0.50" opacity="0.55"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M273.1 128.7Q270.2 128.9 267.3 128.1" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:1.28s" d="M267.3 128.1Q265.1 128.8 263.3 130.4" stroke="#FF8A3D" stroke-width="0.50" opacity="0.45"/>
+<path class="d" pathLength="1" style="animation-delay:1.28s" d="M267.3 128.1Q265.5 127.1 264.5 124.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.45"/>
+<path class="d" pathLength="1" style="animation-delay:1.12s" d="M273.1 128.7Q272.5 126.1 273.2 123.3" stroke="#FF8A3D" stroke-width="0.50" opacity="0.50"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M285.9 139.0Q283.6 134.4 283.8 129.0" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M293.5 148.4Q296.7 141.7 296.9 134.1" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.48s" d="M297.1 165.0Q305.8 165.0 313.3 158.5" stroke="#FF8A3D" stroke-width="0.90" opacity="0.70"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M313.3 158.5Q316.9 152.3 321.8 146.8" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.64s" d="M313.3 158.5Q319.6 157.3 326.2 159.7" stroke="#FF8A3D" stroke-width="0.64" opacity="0.65"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M326.2 159.7Q331.1 158.4 335.2 154.9" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.80s" d="M326.2 159.7Q331.0 161.4 334.5 165.7" stroke="#FF8A3D" stroke-width="0.50" opacity="0.60"/>
+<path class="d" pathLength="1" style="animation-delay:0.32s" d="M288.7 184.1Q297.7 179.8 308.5 183.3" stroke="#FF8A3D" stroke-width="1.24" opacity="0.75"/>
+<path class="d" pathLength="1" style="animation-delay:0.00s" d="M254.5 235.7Q268.8 225.0 280.6 211.2" stroke="#FE94C1" stroke-width="2.40" opacity="0.85"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M280.6 211.2Q284.9 197.9 285.5 183.6" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M280.6 211.2Q293.0 211.2 304.9 206.2" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.00s" d="M255.1 236.5Q264.1 226.6 277.2 221.4" stroke="#FE94C1" stroke-width="2.40" opacity="0.85"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M277.2 221.4Q279.1 211.5 288.0 204.5" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
+<path class="d" pathLength="1" style="animation-delay:0.16s" d="M277.2 221.4Q287.8 218.5 298.2 215.2" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
 <path class="d" pathLength="1" style="animation-delay:0.00s" d="M652.5 231.5Q626.2 219.2 614.1 187.7" stroke="#FE94C1" stroke-width="2.40" opacity="0.85"/>
 <path class="d" pathLength="1" style="animation-delay:0.16s" d="M614.1 187.7Q593.6 180.0 573.3 171.4" stroke="#FE94C1" stroke-width="1.73" opacity="0.80"/>
 <path class="d" pathLength="1" style="animation-delay:0.32s" d="M573.3 171.4Q557.5 174.8 541.4 176.7" stroke="#FE94C1" stroke-width="1.24" opacity="0.75"/>
@@ -418,155 +418,155 @@
 <path class="d" pathLength="1" style="animation-delay:0.64s" d="M512.6 304.5Q501.4 303.0 490.4 308.2" stroke="#FE94C1" stroke-width="0.64" opacity="0.65"/>
 <path class="d" pathLength="1" style="animation-delay:0.64s" d="M512.6 304.5Q504.1 294.8 504.4 280.1" stroke="#FE94C1" stroke-width="0.64" opacity="0.65"/>
 </g>
-<circle class="p" style="animation-delay:1.96s" cx="321.2" cy="295.3" r="1.9" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.19s" cx="345.1" cy="298.7" r="2.3" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.80s" cx="357.1" cy="309.5" r="1.7" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.49s" cx="358.2" cy="326.6" r="3.1" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.79s" cx="352.7" cy="329.3" r="2.3" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.93s" cx="345.3" cy="331.4" r="2.4" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.73s" cx="347.0" cy="341.1" r="1.6" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.96s" cx="339.7" cy="345.5" r="3.2" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.27s" cx="333.6" cy="338.2" r="2.6" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.68s" cx="326.3" cy="339.7" r="1.9" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.75s" cx="311.4" cy="328.9" r="2.2" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.18s" cx="299.2" cy="329.5" r="2.6" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.16s" cx="323.8" cy="324.4" r="2.8" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.27s" cx="321.0" cy="339.8" r="3.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.83s" cx="302.4" cy="353.1" r="2.1" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.33s" cx="306.1" cy="370.1" r="1.7" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.26s" cx="303.7" cy="381.8" r="3.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.30s" cx="300.0" cy="387.9" r="2.6" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.71s" cx="296.4" cy="387.6" r="3.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.02s" cx="288.6" cy="385.4" r="2.6" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.61s" cx="283.7" cy="385.2" r="3.1" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.37s" cx="282.8" cy="382.4" r="2.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.45s" cx="282.7" cy="379.8" r="1.8" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.41s" cx="279.9" cy="374.6" r="2.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.62s" cx="282.4" cy="371.5" r="2.4" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.92s" cx="279.6" cy="378.7" r="1.8" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.08s" cx="273.6" cy="374.3" r="2.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.08s" cx="270.1" cy="370.0" r="1.7" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.70s" cx="268.5" cy="365.7" r="2.7" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.31s" cx="263.4" cy="326.9" r="2.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.87s" cx="282.7" cy="359.4" r="2.5" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.06s" cx="273.0" cy="370.2" r="3.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.71s" cx="246.6" cy="367.6" r="2.5" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.11s" cx="236.9" cy="367.3" r="3.1" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.72s" cx="225.0" cy="402.6" r="1.9" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.68s" cx="208.2" cy="405.0" r="2.7" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.06s" cx="192.1" cy="371.5" r="2.1" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.86s" cx="225.3" cy="383.0" r="3.2" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.30s" cx="206.9" cy="381.5" r="3.1" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.82s" cx="189.8" cy="377.0" r="2.9" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.97s" cx="178.5" cy="364.1" r="1.9" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.65s" cx="211.7" cy="346.3" r="2.2" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.80s" cx="198.9" cy="339.2" r="1.8" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.01s" cx="198.6" cy="383.7" r="2.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.10s" cx="194.4" cy="392.1" r="2.9" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.01s" cx="183.8" cy="389.0" r="1.6" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.37s" cx="176.6" cy="389.0" r="1.9" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.69s" cx="181.8" cy="396.2" r="2.2" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.37s" cx="180.8" cy="398.6" r="1.7" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.74s" cx="173.5" cy="401.9" r="1.6" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.47s" cx="169.6" cy="400.7" r="3.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.07s" cx="168.9" cy="393.3" r="2.4" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.97s" cx="162.7" cy="393.0" r="3.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.15s" cx="157.9" cy="383.7" r="2.8" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.38s" cx="151.6" cy="383.5" r="2.7" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.47s" cx="144.4" cy="378.0" r="3.2" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.97s" cx="147.9" cy="358.3" r="3.2" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.61s" cx="158.8" cy="376.0" r="2.8" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.74s" cx="148.8" cy="374.7" r="2.4" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.34s" cx="145.1" cy="369.5" r="2.1" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.26s" cx="139.9" cy="361.3" r="3.1" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.24s" cx="142.4" cy="343.3" r="1.7" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.74s" cx="144.7" cy="330.2" r="2.8" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:2.08s" cx="187.7" cy="327.3" r="2.9" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.63s" cx="175.1" cy="308.7" r="2.0" fill="#B0B1F9"/>
-<circle class="p" style="animation-delay:1.70s" cx="177.5" cy="318.9" r="2.1" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.87s" cx="162.6" cy="312.6" r="2.1" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.47s" cx="148.6" cy="300.6" r="3.2" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.18s" cx="138.6" cy="279.0" r="1.7" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.36s" cx="137.5" cy="287.4" r="2.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.64s" cx="108.9" cy="292.1" r="1.7" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.97s" cx="101.9" cy="285.9" r="2.7" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.67s" cx="100.8" cy="276.5" r="2.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.83s" cx="95.2" cy="260.8" r="3.1" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.70s" cx="102.9" cy="254.5" r="2.9" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.43s" cx="118.4" cy="254.4" r="2.5" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.90s" cx="107.1" cy="241.6" r="2.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.04s" cx="116.2" cy="232.7" r="2.4" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.19s" cx="136.0" cy="237.3" r="2.0" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.40s" cx="125.9" cy="225.9" r="2.4" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.45s" cx="122.9" cy="211.6" r="2.5" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.11s" cx="130.9" cy="206.9" r="2.3" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.05s" cx="123.0" cy="207.4" r="1.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.41s" cx="132.1" cy="194.8" r="1.9" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.96s" cx="152.3" cy="204.3" r="3.2" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.87s" cx="187.2" cy="258.0" r="2.3" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.27s" cx="169.3" cy="265.9" r="3.1" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.83s" cx="162.8" cy="260.6" r="3.1" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.93s" cx="165.9" cy="249.3" r="2.4" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.99s" cx="173.7" cy="224.6" r="2.0" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.03s" cx="159.1" cy="202.7" r="3.0" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.92s" cx="143.2" cy="201.1" r="2.9" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.99s" cx="141.8" cy="198.1" r="2.1" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.01s" cx="144.9" cy="193.2" r="2.7" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.64s" cx="154.4" cy="189.0" r="3.1" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.35s" cx="161.5" cy="186.8" r="2.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.66s" cx="170.9" cy="176.3" r="3.0" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.08s" cx="159.8" cy="186.4" r="2.5" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.09s" cx="154.6" cy="174.4" r="1.9" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.96s" cx="158.0" cy="170.3" r="2.7" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.80s" cx="178.5" cy="164.8" r="2.4" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.69s" cx="191.1" cy="164.0" r="2.2" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.93s" cx="177.4" cy="168.1" r="2.5" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.88s" cx="184.7" cy="160.9" r="1.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.04s" cx="206.1" cy="172.5" r="2.1" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.81s" cx="203.4" cy="211.2" r="2.7" fill="#FE94C1"/>
-<circle class="p" style="animation-delay:2.27s" cx="225.2" cy="193.4" r="2.7" fill="#FE94C1"/>
-<circle class="p" style="animation-delay:2.04s" cx="202.7" cy="198.3" r="2.2" fill="#FE94C1"/>
-<circle class="p" style="animation-delay:1.61s" cx="224.2" cy="184.1" r="1.8" fill="#FE94C1"/>
-<circle class="p" style="animation-delay:1.97s" cx="195.7" cy="149.9" r="2.9" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.47s" cx="175.1" cy="116.0" r="2.3" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.61s" cx="188.6" cy="102.7" r="2.2" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.13s" cx="216.0" cy="104.7" r="1.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.46s" cx="206.5" cy="86.9" r="1.7" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.93s" cx="211.1" cy="80.0" r="2.6" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.14s" cx="225.9" cy="83.5" r="1.7" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.93s" cx="234.2" cy="96.3" r="2.2" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.87s" cx="231.0" cy="109.8" r="2.0" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.15s" cx="205.2" cy="136.5" r="2.5" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.13s" cx="197.7" cy="113.6" r="2.3" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.88s" cx="201.7" cy="107.8" r="2.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.05s" cx="212.5" cy="99.2" r="1.9" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.06s" cx="222.6" cy="97.9" r="2.6" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.28s" cx="227.2" cy="118.0" r="1.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.65s" cx="254.8" cy="113.6" r="2.7" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.68s" cx="270.3" cy="115.2" r="2.1" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.83s" cx="278.2" cy="144.0" r="1.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.84s" cx="242.8" cy="144.5" r="3.0" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.32s" cx="247.4" cy="133.2" r="2.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.98s" cx="251.6" cy="132.2" r="1.7" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.37s" cx="260.4" cy="131.4" r="2.7" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.96s" cx="271.5" cy="133.4" r="2.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.86s" cx="273.0" cy="153.5" r="2.6" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.21s" cx="274.0" cy="154.8" r="1.6" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.68s" cx="293.2" cy="161.6" r="2.0" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.49s" cx="270.7" cy="133.5" r="2.8" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.35s" cx="263.0" cy="130.2" r="3.2" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.90s" cx="264.3" cy="124.7" r="3.0" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.89s" cx="272.9" cy="123.2" r="2.1" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.34s" cx="283.6" cy="128.8" r="1.9" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.31s" cx="296.7" cy="133.9" r="2.5" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.18s" cx="321.7" cy="146.5" r="2.9" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.65s" cx="335.1" cy="154.7" r="2.4" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.29s" cx="334.4" cy="165.4" r="2.4" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:1.64s" cx="308.5" cy="183.1" r="2.0" fill="#FF8A3D"/>
-<circle class="p" style="animation-delay:2.16s" cx="285.5" cy="183.5" r="1.9" fill="#FE94C1"/>
-<circle class="p" style="animation-delay:2.10s" cx="304.9" cy="206.1" r="2.8" fill="#FE94C1"/>
-<circle class="p" style="animation-delay:2.43s" cx="288.0" cy="204.4" r="3.0" fill="#FE94C1"/>
-<circle class="p" style="animation-delay:2.17s" cx="298.3" cy="215.2" r="1.7" fill="#FE94C1"/>
+<circle class="p" style="animation-delay:1.96s" cx="321.2" cy="295.2" r="1.9" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.19s" cx="345.1" cy="298.5" r="2.3" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.80s" cx="357.1" cy="309.2" r="1.7" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.49s" cx="358.3" cy="326.4" r="3.1" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.79s" cx="352.7" cy="329.0" r="2.3" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.93s" cx="345.3" cy="331.1" r="2.4" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.73s" cx="347.0" cy="340.8" r="1.6" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.96s" cx="339.8" cy="345.2" r="3.2" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.27s" cx="333.6" cy="337.9" r="2.6" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.68s" cx="326.4" cy="339.5" r="1.9" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.75s" cx="311.5" cy="328.7" r="2.2" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.18s" cx="299.3" cy="329.3" r="2.6" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.16s" cx="323.9" cy="324.1" r="2.8" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.27s" cx="321.0" cy="339.6" r="3.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.83s" cx="302.5" cy="352.9" r="2.1" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.33s" cx="306.2" cy="369.9" r="1.7" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.26s" cx="303.9" cy="381.6" r="3.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.30s" cx="300.2" cy="387.6" r="2.6" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.71s" cx="296.6" cy="387.3" r="3.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.02s" cx="288.8" cy="385.1" r="2.6" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.61s" cx="283.9" cy="385.0" r="3.1" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.37s" cx="283.0" cy="382.2" r="2.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.45s" cx="282.9" cy="379.5" r="1.8" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.41s" cx="280.1" cy="374.4" r="2.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.62s" cx="282.6" cy="371.2" r="2.4" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.92s" cx="279.8" cy="378.5" r="1.8" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.08s" cx="273.8" cy="374.1" r="2.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.08s" cx="270.3" cy="369.8" r="1.7" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.70s" cx="268.7" cy="365.5" r="2.7" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.31s" cx="263.5" cy="326.7" r="2.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.87s" cx="283.3" cy="359.0" r="2.5" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.06s" cx="273.6" cy="369.9" r="3.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.71s" cx="247.2" cy="367.5" r="2.5" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.11s" cx="237.6" cy="367.2" r="3.1" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.72s" cx="225.9" cy="402.5" r="1.9" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.68s" cx="209.0" cy="405.0" r="2.7" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.06s" cx="192.8" cy="371.7" r="2.1" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.86s" cx="226.0" cy="383.0" r="3.2" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.30s" cx="207.6" cy="381.5" r="3.1" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.82s" cx="190.6" cy="377.2" r="2.9" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.97s" cx="179.2" cy="364.3" r="1.9" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.65s" cx="212.3" cy="346.4" r="2.2" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.80s" cx="199.4" cy="339.4" r="1.8" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.01s" cx="199.4" cy="383.8" r="2.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.10s" cx="195.2" cy="392.2" r="2.9" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.01s" cx="184.6" cy="389.1" r="1.6" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.37s" cx="177.4" cy="389.2" r="1.9" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.69s" cx="182.7" cy="396.4" r="2.2" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.37s" cx="181.7" cy="398.7" r="1.7" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.74s" cx="174.4" cy="402.1" r="1.6" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.47s" cx="170.4" cy="400.9" r="3.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.07s" cx="169.8" cy="393.5" r="2.4" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.97s" cx="163.6" cy="393.2" r="3.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.15s" cx="158.7" cy="384.0" r="2.8" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.38s" cx="152.4" cy="383.8" r="2.7" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.47s" cx="145.2" cy="378.3" r="3.2" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.97s" cx="148.6" cy="358.7" r="3.2" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.61s" cx="159.5" cy="376.2" r="2.8" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.74s" cx="149.6" cy="375.1" r="2.4" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.34s" cx="145.9" cy="369.8" r="2.1" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.26s" cx="140.6" cy="361.7" r="3.1" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.24s" cx="143.0" cy="343.7" r="1.7" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.74s" cx="145.2" cy="330.6" r="2.8" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:2.08s" cx="188.2" cy="327.5" r="2.9" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.63s" cx="175.5" cy="309.0" r="2.0" fill="#B0B1F9"/>
+<circle class="p" style="animation-delay:1.70s" cx="177.9" cy="319.0" r="2.1" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.87s" cx="163.0" cy="312.8" r="2.1" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.47s" cx="149.0" cy="300.9" r="3.2" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.18s" cx="138.9" cy="279.4" r="1.7" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.36s" cx="137.8" cy="287.7" r="2.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.64s" cx="109.3" cy="292.5" r="1.7" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.97s" cx="102.3" cy="286.4" r="2.7" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.67s" cx="101.1" cy="277.0" r="2.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.83s" cx="95.5" cy="261.3" r="3.1" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.70s" cx="103.1" cy="255.0" r="2.9" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.43s" cx="118.6" cy="254.9" r="2.5" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.90s" cx="107.3" cy="242.1" r="2.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.04s" cx="116.3" cy="233.2" r="2.4" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.19s" cx="136.1" cy="237.7" r="2.0" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.40s" cx="126.0" cy="226.4" r="2.4" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.45s" cx="123.0" cy="212.0" r="2.5" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.11s" cx="131.0" cy="207.3" r="2.3" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.05s" cx="123.1" cy="207.8" r="1.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.41s" cx="132.1" cy="195.2" r="1.9" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.96s" cx="152.3" cy="204.7" r="3.2" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.87s" cx="187.3" cy="257.8" r="2.3" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.27s" cx="169.4" cy="265.6" r="3.1" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.83s" cx="162.9" cy="260.4" r="3.1" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.93s" cx="166.0" cy="249.1" r="2.4" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.99s" cx="173.8" cy="224.4" r="2.0" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.03s" cx="159.3" cy="202.5" r="3.0" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.92s" cx="143.5" cy="200.9" r="2.9" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.99s" cx="142.1" cy="197.8" r="2.1" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.01s" cx="145.2" cy="192.9" r="2.7" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.64s" cx="154.7" cy="188.8" r="3.1" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.35s" cx="161.7" cy="186.6" r="2.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.66s" cx="171.2" cy="176.1" r="3.0" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.08s" cx="160.1" cy="186.2" r="2.5" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.09s" cx="154.9" cy="174.2" r="1.9" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.96s" cx="158.3" cy="170.2" r="2.7" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.80s" cx="178.8" cy="164.7" r="2.4" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.69s" cx="191.4" cy="163.9" r="2.2" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.93s" cx="177.7" cy="168.0" r="2.5" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.88s" cx="185.0" cy="160.9" r="1.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.04s" cx="206.3" cy="172.5" r="2.1" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.81s" cx="203.6" cy="211.0" r="2.7" fill="#FE94C1"/>
+<circle class="p" style="animation-delay:2.27s" cx="225.5" cy="193.3" r="2.7" fill="#FE94C1"/>
+<circle class="p" style="animation-delay:2.04s" cx="203.0" cy="198.0" r="2.2" fill="#FE94C1"/>
+<circle class="p" style="animation-delay:1.61s" cx="224.5" cy="184.0" r="1.8" fill="#FE94C1"/>
+<circle class="p" style="animation-delay:1.97s" cx="196.1" cy="149.8" r="2.9" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.47s" cx="175.7" cy="115.8" r="2.3" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.61s" cx="189.3" cy="102.6" r="2.2" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.13s" cx="216.6" cy="104.7" r="1.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.46s" cx="207.2" cy="86.9" r="1.7" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.93s" cx="211.8" cy="80.0" r="2.6" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.14s" cx="226.6" cy="83.6" r="1.7" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.93s" cx="234.8" cy="96.4" r="2.2" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.87s" cx="231.6" cy="109.8" r="2.0" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.15s" cx="205.7" cy="136.5" r="2.5" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.13s" cx="198.4" cy="113.5" r="2.3" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.88s" cx="202.4" cy="107.8" r="2.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.05s" cx="213.2" cy="99.3" r="1.9" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.06s" cx="223.2" cy="97.9" r="2.6" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.28s" cx="227.8" cy="118.1" r="1.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.65s" cx="255.3" cy="113.8" r="2.7" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.68s" cx="270.8" cy="115.4" r="2.1" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.83s" cx="278.5" cy="144.2" r="1.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.84s" cx="243.0" cy="144.6" r="3.0" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.32s" cx="247.6" cy="133.4" r="2.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.98s" cx="251.8" cy="132.4" r="1.7" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.37s" cx="260.6" cy="131.6" r="2.7" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.96s" cx="271.7" cy="133.6" r="2.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.86s" cx="273.2" cy="153.6" r="2.6" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.21s" cx="274.2" cy="154.9" r="1.6" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.68s" cx="293.3" cy="161.8" r="2.0" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.49s" cx="270.9" cy="133.7" r="2.8" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.35s" cx="263.3" cy="130.4" r="3.2" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.90s" cx="264.5" cy="124.9" r="3.0" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.89s" cx="273.2" cy="123.3" r="2.1" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.34s" cx="283.8" cy="129.0" r="1.9" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.31s" cx="296.9" cy="134.1" r="2.5" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.18s" cx="321.8" cy="146.8" r="2.9" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.65s" cx="335.2" cy="154.9" r="2.4" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.29s" cx="334.5" cy="165.7" r="2.4" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:1.64s" cx="308.5" cy="183.3" r="2.0" fill="#FF8A3D"/>
+<circle class="p" style="animation-delay:2.16s" cx="285.5" cy="183.6" r="1.9" fill="#FE94C1"/>
+<circle class="p" style="animation-delay:2.10s" cx="304.9" cy="206.2" r="2.8" fill="#FE94C1"/>
+<circle class="p" style="animation-delay:2.43s" cx="288.0" cy="204.5" r="3.0" fill="#FE94C1"/>
+<circle class="p" style="animation-delay:2.17s" cx="298.2" cy="215.2" r="1.7" fill="#FE94C1"/>
 <circle class="p" style="animation-delay:1.62s" cx="522.6" cy="190.9" r="2.2" fill="#FE94C1"/>
 <circle class="p" style="animation-delay:2.44s" cx="515.0" cy="170.9" r="2.1" fill="#FE94C1"/>
 <circle class="p" style="animation-delay:2.28s" cx="532.8" cy="141.4" r="2.8" fill="#FE94C1"/>
@@ -635,7 +635,7 @@
 <circle cx="660" cy="240" r="24" fill="#8B4DFF" opacity=".55" filter="url(#halo)"/><circle cx="660" cy="240" r="17" fill="url(#soma)" stroke="#8B4DFF" stroke-width="2"/><circle cx="655" cy="234" r="3" fill="#FFB870" opacity=".9"/>
 <g font-family="'Avenir Next', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" fill="#FFEFF7">
 <text x="40" y="44" font-size="20" font-weight="700">repos</text>
-<text x="40" y="440" font-size="13" fill="#B0B1F9">públicos: 5 repos, 164 commits</text>
+<text x="40" y="440" font-size="13" fill="#B0B1F9">públicos: 5 repos, 165 commits</text>
 <text x="860" y="440" font-size="13" text-anchor="end" fill="#FE94C1">privados: 1 repo, 85 commits</text>
 <text x="860" y="44" font-size="12" text-anchor="end" opacity=".5">cada rama es un repo, el color es su lenguaje</text>
 </g></svg>
